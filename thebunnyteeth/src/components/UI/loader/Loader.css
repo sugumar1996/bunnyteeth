@@ -1,0 +1,51 @@
+.progress-loader #overlay {
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  opacity: 0.5;
+  z-index: 999999;
+}
+
+.progress-loader img {
+  position: fixed;
+  top: 50%;
+  left: 45%;
+  z-index: 999999;
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%, -50%);
+  -webkit-animation: load3 1.4s infinite linear;
+  animation: load3 1.4s infinite linear; 
+  transform: translate(-50%, -50%);
+ 
+}
+
+
+
+@-webkit-keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

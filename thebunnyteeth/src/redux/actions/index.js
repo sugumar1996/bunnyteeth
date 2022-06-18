@@ -1,0 +1,1 @@
+export { getSinglePost, getCategoriesList } from './auth/authAction'

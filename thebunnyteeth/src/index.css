@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,600&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.googleBtn {
+  width: 82%;
+  margin: 10px 0;
+}
+
+.LinkedInBtn img {
+  max-width: 100% !important;
+}
+
+.LinkedInBtn {
+  width: 82%;
+  padding: 0;
+  background: no-repeat;
+  border: 0;
+}
+
+.kep-login-facebook {
+  border-radius: 3px !important;
+  padding: calc(.34435vw + 9.38843px) calc(.34435vw + 18.38843px) !important;
+}
