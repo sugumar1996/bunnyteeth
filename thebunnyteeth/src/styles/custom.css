@@ -1261,21 +1261,21 @@ section {
 /* Our Clinic Interier Section end here */
 
 /* Our Specialty Section start here */
-.our_specialty .left_content .h4_title {
+.left_content .h4_title {
     font-size: 14px;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
-.our_specialty .left_content .ds_info {
+.left_content .ds_info {
     font-size: 46px;
     font-weight: 700;
     letter-spacing: -2px;
     line-height: 1;
 }
 
-.our_specialty .left_content .oc_info {
+.left_content .oc_info {
     font-size: 15px;
     color: #555555;
     font-weight: 400;
@@ -1375,10 +1375,12 @@ section {
 .small_card {
     position: relative;
 }
-.small_card:hover{
+
+.small_card:hover {
     transform: translate(0, -5px);
     transition: transform 300ms ease-out;
 }
+
 .small_card .small_card_wrap {
     box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.15), 0px 0px 2px 0px rgba(0, 0, 0, 0.05);
     border-color: #ffffff;
@@ -1465,10 +1467,12 @@ section {
 .review_content::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
-.testmonial_content{
+
+.testmonial_content {
     padding: 60px 0;
 }
-.tc_pic{
+
+.tc_pic {
     height: 88px;
     width: 88px;
     display: inline-block;
@@ -1476,16 +1480,25 @@ section {
     border-radius: 10px;
     background-color: #F53163;
 }
-.tc_pic .icon_style{
+
+.tc_pic .icon_style {
     font-size: 42px;
     color: #ffffff;
     padding: 23px;
     overflow: hidden;
 }
-.testmonial_content p{
+
+.testmonial_content p {
     font-size: 42px;
     font-weight: 700;
     letter-spacing: -2px;
     display: inline-block;
 }
+
 /* Parent Speaks Section end */
+/* Social Media Section Start here */
+.social_media .social_media_wrap .background_banner{
+    height: 60vh;
+    display: inline-block;
+    overflow: hidden;
+}

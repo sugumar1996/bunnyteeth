@@ -436,13 +436,13 @@ export default (props) => {
                                         <div className="col-lg-4 d-flex">
                                             <div className="oc_card maintain_div">
                                                 <div className="video_data">
-                                                <iframe width="100%" height="200" src="https://www.youtube.com/embed/5sCLSO9S8iY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                                </div>
+                                                    <iframe width="100%" height="200" src="https://www.youtube.com/embed/5sCLSO9S8iY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                                </div>
                                             </div>
                                         </div>
                                         <div className="col-lg-4 d-flex">
                                             <div className="oc_card maintain_div">
                                                 <div className="video_data">
-                                                <iframe width="100%" height="200" src="https://www.youtube.com/embed/PP9p_28bjso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                                </div>
+                                                    <iframe width="100%" height="200" src="https://www.youtube.com/embed/PP9p_28bjso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -451,6 +451,31 @@ export default (props) => {
                                         <div className="tc_pic mx-5">
                                             <i class="fa fa-home icon_style" aria-hidden="true"></i>
                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className="social_media maintain_div">
+                <div className="social_media_wrap maintain_div">
+                    <div className="background_banner">
+                        <img src={baseImagePath('thumbnails/theme8.jpg')} class="custom_img"
+                            alt="Alphabet Internation School" />
+                    </div>
+                    <div className="container custom_container">
+                        <div className="ps_main_wrapper ">
+                            <div className="row">
+                                <div className="col-lg-12">
+                                    <div className="left_content maintain_div py-5">
+                                        <article className="main_article maintain_div">
+                                            <h4 className="h4_title text-left text_color montserrat_font margin_B20 secondaryColor">SOCIAL MEDIA</h4>
+                                            <h3 className="ds_info text-left text_color montserrat_font">Connect With Us</h3>
+                                            <progress id="file" value="25" max="100" style={{ width: "100%", height: "3px" }}>25%</progress>
+                                            <p className="oc_info text-left text_color roboto_font w-100">
+                                                Strong connection is the key to global success. Travel through our social media channels to know more about our improvisations, treatments, milestones, contended staffs and satisfied clients                                            </p>
+                                        </article>
                                     </div>
                                 </div>
                             </div>
