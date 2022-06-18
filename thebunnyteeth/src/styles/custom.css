@@ -1351,4 +1351,141 @@ section {
     overflow: hidden;
 }
 
+.parent_speaks .parent_speaks_wrap .h3_title {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.parent_speaks .parent_speaks_wrap .h2_title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #49274a;
+}
+
+.ps_main_wrapper {
+    position: relative;
+    padding: 45px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+    margin: -10em 0em 0em 0em;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.small_card {
+    position: relative;
+}
+.small_card:hover{
+    transform: translate(0, -5px);
+    transition: transform 300ms ease-out;
+}
+.small_card .small_card_wrap {
+    box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.15), 0px 0px 2px 0px rgba(0, 0, 0, 0.05);
+    border-color: #ffffff;
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 15px;
+    transition: transform 300ms ease-out;
+}
+
+.small_card .ds_pic {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.small_card .sc_name {
+    font-weight: bold;
+    font-size: 15px;
+    overflow: hidden;
+    padding-right: 25px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #000000;
+    margin-bottom: 2px;
+}
+
+.small_card .sc_name::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    background-image: url(../assets/images/icons/icon2.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.small_card .sc_date {
+    font-size: 14px;
+    line-height: 1.4em;
+    opacity: 0.5;
+}
+
+.rating_star {
+    line-height: 15px;
+}
+
+.review_content {
+    line-height: 20.3px;
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-align: left;
+    -webkit-line-clamp: inherit;
+    overflow: auto;
+    overflow-x: hidden;
+    padding-right: 10px;
+    font-weight: 400;
+    margin-top: 10px;
+    max-height: 80px;
+}
+
+.review_content::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.review_content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.review_content::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.review_content::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.testmonial_content{
+    padding: 60px 0;
+}
+.tc_pic{
+    height: 88px;
+    width: 88px;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #F53163;
+}
+.tc_pic .icon_style{
+    font-size: 42px;
+    color: #ffffff;
+    padding: 23px;
+    overflow: hidden;
+}
+.testmonial_content p{
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    display: inline-block;
+}
 /* Parent Speaks Section end */
