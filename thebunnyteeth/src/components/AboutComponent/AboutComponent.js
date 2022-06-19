@@ -19,121 +19,38 @@ export default (props) => {
                     </div>
                 </div>
             </section>
-            <section className="dental_services header_margin">
-                <div className="dental_services_wrap maintain_div py_80">
+            <section className="about_us header_margin">
+                <div className="about_us_wrap maintain_div">
+                    <div className="about_overlay_banner"></div>
                     <div className="container custom_container">
                         <div className="row">
                             <div className="col-lg-12">
-                                <header className="maintain_div mb_30">
-                                    <h3 className="h3_title montserrat_font">About Dental Services</h3>
-                                </header>
                                 <div className="row">
-                                    <div className="col-lg-4 d-flex">
-                                        <div className="ds_card maintain_div">
-                                            <div className="ds_card_inner maintain_div">
-                                                <article className="main_article maintain_div text-center">
-                                                    <div className="ds_pic">
-                                                        <img src={baseImagePath('icons/tooth.png')} class="custom_img"
-                                                            alt="Alphabet Internation School" />
-                                                    </div>
-                                                    <div className="hover_change">
-                                                        <img src={baseImagePath('icons/white_tooth.png')} class="custom_img"
-                                                            alt="Alphabet Internation School" />
-                                                    </div>
-                                                    <h4 className="h4_title text-center text_color montserrat_font">GENERAL DENTISTRY</h4>
-                                                    <p className="ds_info text-center m-0 text_color roboto_font">Get your basics examined here </p>
-                                                </article>
+                                    <div className="col-lg-5">
+                                        <div className="object_content maintain_div">
+                                            <div className="about_us_image">
+                                                <div className="inner_image_wrap mb-3">
+                                                    <img src={baseImagePath('thumbnails/theme9.jpg')} class="custom_img border_radius_10PX"
+                                                        alt="Alphabet Internation School" />
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-lg-4 d-flex">
-                                        <div className="ds_card maintain_div">
-                                            <div className="ds_card_inner maintain_div">
-                                                <article className="main_article maintain_div text-center">
-                                                    <div className="ds_pic">
-                                                        <img src={baseImagePath('icons/tooth.png')} class="custom_img"
-                                                            alt="Alphabet Internation School" />
-                                                    </div>
-                                                    <div className="hover_change">
-                                                        <img src={baseImagePath('icons/white_tooth.png')} class="custom_img"
-                                                            alt="Alphabet Internation School" />
-                                                    </div>
-                                                    <h4 className="h4_title text-center text_color montserrat_font">KIDS DENTISTRY</h4>
-                                                    <p className="ds_info text-center m-0 text_color roboto_font">Meet our child friendly doctors who shoo away their pain </p>
-                                                </article>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-4 d-flex">
-                                        <div className="ds_card maintain_div">
-                                            <div className="ds_card_inner maintain_div">
-                                                <article className="main_article maintain_div text-center">
-                                                    <div className="ds_pic">
-                                                        <img src={baseImagePath('icons/tooth.png')} class="custom_img"
-                                                            alt="Alphabet Internation School" />
-                                                    </div>
-                                                    <div className="hover_change">
-                                                        <img src={baseImagePath('icons/white_tooth.png')} class="custom_img"
-                                                            alt="Alphabet Internation School" />
-                                                    </div>
-                                                    <h4 className="h4_title text-center text_color montserrat_font">DENTAL IMPLANTS</h4>
-                                                    <p className="ds_info text-center m-0 text_color roboto_font">Affordable Dental implants  </p>
-                                                </article>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-4 d-flex">
-                                        <div className="ds_card maintain_div">
-                                            <div className="ds_card_inner maintain_div">
-                                                <article className="main_article maintain_div text-center">
-                                                    <div className="ds_pic">
-                                                        <img src={baseImagePath('icons/tooth.png')} class="custom_img"
-                                                            alt="Alphabet Internation School" />
-                                                    </div>
-                                                    <div className="hover_change">
-                                                        <img src={baseImagePath('icons/white_tooth.png')} class="custom_img"
-                                                            alt="Alphabet Internation School" />
-                                                    </div>
-                                                    <h4 className="h4_title text-center text_color montserrat_font">SMILE MAKEOVER</h4>
-                                                    <p className="ds_info text-center m-0 text_color roboto_font">Walk your way through cheerless smiles to confident smiles  </p>
-                                                </article>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-4 d-flex">
-                                        <div className="ds_card maintain_div">
-                                            <div className="ds_card_inner maintain_div">
-                                                <article className="main_article maintain_div text-center">
-                                                    <div className="ds_pic">
-                                                        <img src={baseImagePath('icons/tooth.png')} class="custom_img"
-                                                            alt="Alphabet Internation School" />
-                                                    </div>
-                                                    <div className="hover_change">
-                                                        <img src={baseImagePath('icons/white_tooth.png')} class="custom_img"
-                                                            alt="Alphabet Internation School" />
-                                                    </div>
-                                                    <h4 className="h4_title text-center text_color montserrat_font">SLEEP DENTISTRY</h4>
-                                                    <p className="ds_info text-center m-0 text_color roboto_font">Feel “at home” on the dentist’s chair. Painless support extended during surgery </p>
-                                                </article>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-4 d-flex">
-                                        <div className="ds_card maintain_div">
-                                            <div className="ds_card_inner maintain_div">
-                                                <article className="main_article maintain_div text-center">
-                                                    <div className="ds_pic">
-                                                        <img src={baseImagePath('icons/tooth.png')} class="custom_img"
-                                                            alt="Alphabet Internation School" />
-                                                    </div>
-                                                    <div className="hover_change">
-                                                        <img src={baseImagePath('icons/white_tooth.png')} class="custom_img"
-                                                            alt="Alphabet Internation School" />
-                                                    </div>
-                                                    <h4 className="h4_title text-center text_color montserrat_font">OROFACIAL PAIN & TMJ DISORDERS</h4>
-                                                    <p className="ds_info text-center m-0 text_color roboto_font">Get relief from Orofacial pain & TMJ disorders </p>
-                                                </article>
-                                            </div>
+                                    <div className="col-lg-7">
+                                        <div class="left_content maintain_div py-5 ps-5">
+                                            <article class="main_article maintain_div">
+                                                <h4 class="h4_title text-left text_color montserrat_font margin_B20 secondaryColor">ABOUT US</h4>
+                                                <h3 class="ds_info text-left text_color montserrat_font">We are one of the leading Dental Clinic</h3>
+                                                <p class="oc_info text-left text_color roboto_font w-100">
+                                                    equipped with latest technology. Our philosophy of happy smiles is defined by personalized care and high-tech treatments to our patients. Our ever enthusiastic and qualified family of dentists bring with them wide experience in their respective domains. We consider our duty completed when we provide complete patient satisfaction.
+                                                </p>
+                                                <p class="oc_info text-left text_color roboto_font w-100">
+                                                    Our gentle approach has been an attractive force because of which we have been able to cater to patients of all ages from toddlers to adults. Parents have a strong faith in our dedication towards our young patients. The interactions and relaxing environment created by us has been a winner among younger patients. We become a part of their family providing utmost care and correct solutions for their dental problems.
+                                                </p>
+                                                <p class="oc_info text-left text_color roboto_font w-100">
+                                                    We are always available for patients to handle all types of emergency situations. Our friendly staff are well equipped for seamless follow up system which is appreciated always. We never compromise in providing highest standards of dental and safety procedures. You can entrust us with your utmost dental concerns and we promise to come up with tailor made solutions and ultimately associating with you for best oral health.
+                                                </p>
+                                            </article>
                                         </div>
                                     </div>
                                 </div>

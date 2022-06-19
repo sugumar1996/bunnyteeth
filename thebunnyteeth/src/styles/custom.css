@@ -1050,7 +1050,9 @@ section {
 .roboto_font {
     font-family: 'Roboto', sans-serif;
 }
-
+.border_radius_10PX{
+    border-radius: 10px;
+}
 .primary_color_bg {
     background: #AC4186;
 }
@@ -1532,3 +1534,21 @@ section {
     background-image: url(../assets/images/thumbnails/aboutTheme.png); 
 }
 /* About Component Start Here */
+.about_us_image{
+    background-image: url(../assets/images/thumbnails/theme10.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 95% auto;
+    padding: 3em 3em 3em 3em;
+}
+.about_overlay_banner{
+    background-image: url(../assets/images/thumbnails/theme11.png);
+    background-position: 75em -20em;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    height: 300px;
+    width: 100%;
+    top: -109px;
+    left: 0;
+    position: absolute;
+}
