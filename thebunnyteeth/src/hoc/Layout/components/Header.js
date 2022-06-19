@@ -50,8 +50,8 @@ export const Header = (props) => {
           </div>
           <nav id="navbar" class="navbar">
             <ul>
-              <li><a href="#hero" className="roboto_font">Home</a></li>
-              <li class="dropdown"><a href="#" className="roboto_font"><span>About</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+              <li><Link to="/home-blog" href="#hero" className="roboto_font">Home</Link></li>
+              <li class="dropdown"><Link to="/about" href="#" className="roboto_font"><span>About</span> <i class="bi bi-chevron-down dropdown-indicator"></i></Link>
                 <ul>
                   <li class="dropdown"><a href="#" className="roboto_font"><span>Our Team</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                     <ul>
