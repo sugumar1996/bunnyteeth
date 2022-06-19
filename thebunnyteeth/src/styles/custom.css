@@ -1076,7 +1076,9 @@ section {
     height: calc(100% - 106px);
     margin-top: 106px;
 }
-
+.margin_top_header{
+    margin-top: 100px;
+}
 .hero_banner {
     width: 100%;
     display: block;
@@ -1502,3 +1504,31 @@ section {
     display: inline-block;
     overflow: hidden;
 }
+
+/* About Component Start Here */
+.app_banner .app_banner_wrap{
+    background-color: transparent;
+    background-image: linear-gradient(45deg, #AC4186 0%, #F6A9B8 100%);
+    padding: 126px 0;
+    position: relative;
+}
+.app_banner .app_banner_wrap header .h3_title{
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+.app_banner .app_banner_wrap .banner_overlay{
+    background-position: 800px -16px;
+    background-repeat: no-repeat;
+    background-size: 45% auto;
+    opacity: 0.1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.aboutus_shadow{
+    background-image: url(../assets/images/thumbnails/aboutTheme.png); 
+}
+/* About Component Start Here */

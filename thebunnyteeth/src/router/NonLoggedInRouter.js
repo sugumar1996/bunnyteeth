@@ -10,7 +10,7 @@ export default () => {
     <Switch>
       <Route exact path={routes.HOME_BLOG} component={HomeContainer} />
       <Route exact path={routes.ABOUT} component={AboutContainer} />
-      <Route exact path="*" component={() => <Redirect to={routes.HOME_BLOG} />} />
+      <Route exact path="*" component={() => <Redirect to={routes.ABOUT} />} />
     </Switch>
   );
 };

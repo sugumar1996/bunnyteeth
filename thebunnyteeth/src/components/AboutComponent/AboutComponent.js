@@ -5,21 +5,15 @@ export default (props) => {
 
     return (
         <>
-            <section className="hero_banner">
-                <div className="hb_inner_wrap">
-                    <div className="bg_layout banner_hero_style curve"></div>
+            <section className="app_banner margin_top_header">
+                <div className="app_banner_wrap">
+                    <div className="banner_overlay aboutus_shadow"></div>
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
-                                {/*<div className="hb_card maintain_div">
-                                    <div className="hb_card_inner maintain_div">
-                                        <article className="main_article maintain_div">
-                                            <h4>Get your</h4>
-                                            <h3>Beautiful Smile That Lasts Forever</h3>
-                                            <p>A comprehensive dental procedure to enhance the pleasantness of your smile.</p>
-                                        </article>
-                                    </div>
-                                </div>*/}
+                                <header className="maintain_div text-center">
+                                    <h3 className="h3_title montserrat_font m-0 text-white montserrat_font">About Us</h3>
+                                </header>
                             </div>
                         </div>
                     </div>
