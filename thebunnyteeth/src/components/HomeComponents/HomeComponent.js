@@ -459,7 +459,7 @@ export default (props) => {
                 </div>
             </section>
             <section className="social_media maintain_div">
-                <div className="social_media_wrap maintain_div">
+                <div className="social_media_wrap maintain_div py_80">
                     <div className="background_banner">
                         <img src={baseImagePath('thumbnails/theme8.jpg')} class="custom_img"
                             alt="Alphabet Internation School" />

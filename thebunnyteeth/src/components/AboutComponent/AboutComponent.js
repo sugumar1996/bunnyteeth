@@ -37,7 +37,7 @@ export default (props) => {
                                         </div>
                                     </div>
                                     <div className="col-lg-7">
-                                        <div class="left_content maintain_div py-5 ps-5">
+                                        <div class="left_content maintain_div py-5 ps-5 pb-0">
                                             <article class="main_article maintain_div">
                                                 <h4 class="h4_title text-left text_color montserrat_font margin_B20 secondaryColor">ABOUT US</h4>
                                                 <h3 class="ds_info text-left text_color montserrat_font">We are one of the leading Dental Clinic</h3>
@@ -68,48 +68,80 @@ export default (props) => {
                     </div>
                 </div>
             </section>
-            <section className="our_services maintain_div">
-                <div className="our_services_wrap maintain_div py_80">
+            <section className="about_us header_margin maintain_div">
+                <div className="about_us_wrap maintain_div">
+                    <div className="about_overlay_banner"></div>
                     <div className="container custom_container">
                         <div className="row">
                             <div className="col-lg-12">
+                                <div class="left_content maintain_div py-5 ps-5">
+                                    <article class="main_article maintain_div text-center">
+                                        <h4 class="h4_title text-left text_color montserrat_font margin_B20 secondaryColor">MEET THE TEAM</h4>
+                                        <h3 class="ds_info text-left text_color montserrat_font">Awesome Dentist's</h3>
+                                    </article>
+                                </div>
                                 <div className="row">
-                                    <div className="col-lg-4 d-flex">
-                                        <div className="os_card maintain_div">
-                                            <div className="os_card_inner maintain_div">
-                                                <div className="os_icon_wrap mb_30  primary_color_bg">
-                                                    <div className="inner_icon maintain_div"><i class="fa fa-home icon_style" aria-hidden="true"></i></div>
+                                    <div className="col-lg-3">
+                                        <div className="team_card maintain_div">
+                                            <div className="teamCard_inner_wrap maintain_div border_radius_10PX">
+                                                <div className="teamCard_img">
+                                                    <img src={baseImagePath('thumbnails/theme12.jpg')} class="custom_img border_radius_10PX"
+                                                        alt="Alphabet Internation School" />
                                                 </div>
-                                                <article className="main_article maintain_div text-left">
-                                                    <h4 className="h4_title text-left text_color montserrat_font">Our Team</h4>
-                                                    <p className="ds_info text-left m-0 text_color roboto_font">Meet our Young & Dynamic Team of Awesome Dentist. </p>
-                                                </article>
+                                                <div className="teamCardText maintain_div text-center py-3">
+                                                    <h4 className="text-center">
+                                                        <a href="" className="h4_title">Dr. Santosh Kumari Rathod</a>
+                                                    </h4>
+                                                    <p class="teamCard_info roboto_font">Lead Dentist</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-lg-4 d-flex">
-                                        <div className="os_card maintain_div">
-                                            <div className="os_card_inner maintain_div">
-                                                <div className="os_icon_wrap mb_30 secondary_color_bg ">
-                                                    <div className="inner_icon maintain_div"><i class="fa fa-home icon_style" aria-hidden="true"></i></div>
+                                    <div className="col-lg-3">
+                                        <div className="team_card maintain_div">
+                                            <div className="teamCard_inner_wrap maintain_div border_radius_10PX">
+                                                <div className="teamCard_img">
+                                                    <img src={baseImagePath('thumbnails/theme13.jpg')} class="custom_img border_radius_10PX"
+                                                        alt="Alphabet Internation School" />
                                                 </div>
-                                                <article className="main_article maintain_div text-left">
-                                                    <h4 className="h4_title text-left text_color montserrat_font">Our Clinic Tour</h4>
-                                                    <p className="ds_info text-left m-0 text_color roboto_font">A glance at Our Clinic Interior. </p>
-                                                </article>
+                                                <div className="teamCardText maintain_div text-center py-3">
+                                                    <h4 className="text-center">
+                                                        <a href="" className="h4_title">Dr. Vishnu Priya</a>
+                                                    </h4>
+                                                    <p class="teamCard_info roboto_font">Associate Dentist</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-lg-4 d-flex">
-                                        <div className="os_card maintain_div">
-                                            <div className="os_card_inner maintain_div">
-                                                <div className="os_icon_wrap mb_30 third_color_bg ">
-                                                    <div className="inner_icon maintain_div"><i class="fa fa-home icon_style" aria-hidden="true"></i></div>
+                                    <div className="col-lg-3">
+                                        <div className="team_card maintain_div">
+                                            <div className="teamCard_inner_wrap maintain_div border_radius_10PX">
+                                                <div className="teamCard_img">
+                                                    <img src={baseImagePath('thumbnails/theme14.jpg')} class="custom_img border_radius_10PX"
+                                                        alt="Alphabet Internation School" />
                                                 </div>
-                                                <article className="main_article maintain_div text-left">
-                                                    <h4 className="h4_title text-left text_color montserrat_font">Testimonials</h4>
-                                                    <p className="ds_info text-left m-0 text_color roboto_font">What Our Clients Speak About Us. </p>
-                                                </article>
+                                                <div className="teamCardText maintain_div text-center py-3">
+                                                    <h4 className="text-center">
+                                                        <a href="" className="h4_title">Dr. Afshan Hassan.K</a>
+                                                    </h4>
+                                                    <p class="teamCard_info roboto_font">Restorative Dentist</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-3">
+                                        <div className="team_card maintain_div">
+                                            <div className="teamCard_inner_wrap maintain_div border_radius_10PX">
+                                                <div className="teamCard_img">
+                                                    <img src={baseImagePath('thumbnails/theme15.jpg')} class="custom_img border_radius_10PX"
+                                                        alt="Alphabet Internation School" />
+                                                </div>
+                                                <div className="teamCardText maintain_div text-center py-3">
+                                                    <h4 className="text-center">
+                                                        <a href="" className="h4_title">Dr Sivaranjini</a>
+                                                    </h4>
+                                                    <p class="teamCard_info roboto_font">Restorative Dentist</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -119,7 +151,7 @@ export default (props) => {
                     </div>
                 </div>
             </section>
-            <section className="our_clinic maintain_div">
+            <section className="our_clinic maintain_div py_80">
                 <div className="our_clinic_wrap maintain_div py_80 pt-3">
                     <div className="container custom_container">
                         <div className="row">

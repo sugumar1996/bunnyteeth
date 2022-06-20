@@ -1047,7 +1047,9 @@ section {
 .py_80 {
     padding: 80px 0;
 }
-
+.py_40{
+    padding: 40px 0;
+}
 .container.custom_container {
     padding: 0 8%;
 }
@@ -1560,4 +1562,56 @@ section {
     top: -109px;
     left: 0;
     position: absolute;
+}
+.teamCard_inner_wrap{
+    background-color: #AC4186;
+    
+}
+.teamCard_info{
+    color: #FFFFFF;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.teamCard_img{
+    transition-duration: 0.3s;
+    border-radius: 10px;
+    height: auto;
+    max-width: 100%;
+    transition: all ease .3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: initial;
+    cursor: pointer;
+}
+.teamCard_img:hover{
+    transform: translateY(-8px);
+    transition: all ease .3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: initial;
+}
+.teamCardText .h4_title:hover{
+    color: #229631;
+    transition: all ease .3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: initial;
+}
+.teamCardText .h4_title{
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 22px;
+    letter-spacing: 1px;
+    transition: all ease .3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: initial;
 }
