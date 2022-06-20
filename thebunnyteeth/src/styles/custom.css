@@ -1676,7 +1676,9 @@ section {
     left: 0;
     position: absolute;
 }
-
+.about_us_image.home_about_overlay{
+    background-image: url(../assets/images/thumbnails/theme22.png) !important;
+}
 .teamCard_inner_wrap {
     background-color: #AC4186;
 

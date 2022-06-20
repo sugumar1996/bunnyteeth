@@ -99,16 +99,16 @@ export default (props) => {
             </section>
             <section className="about_us header_margin maintain_div pb-5">
                 <div className="about_us_wrap maintain_div">
-                    <div className="about_overlay_banner"></div>
+                    <div className="about_overlay_banner "></div>
                     <div className="container custom_container">
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="row">
                                     <div className="col-lg-5">
                                         <div className="object_content maintain_div">
-                                            <div className="about_us_image">
+                                            <div className="about_us_image home_about_overlay">
                                                 <div className="inner_image_wrap mb-3">
-                                                    <img src={baseImagePath('thumbnails/theme9.jpg')} class="custom_img border_radius_10PX"
+                                                    <img src={baseImagePath('thumbnails/theme23.png')} class="custom_img border_radius_10PX"
                                                         alt="Alphabet Internation School" />
                                                 </div>
                                             </div>
@@ -117,22 +117,24 @@ export default (props) => {
                                     <div className="col-lg-7">
                                         <div class="left_content maintain_div py-5 ps-5 pb-0">
                                             <article class="main_article maintain_div">
-                                                <h4 class="h4_title text-left text_color montserrat_font margin_B20 secondaryColor">ABOUT US</h4>
-                                                <h3 class="ds_info text-left text_color montserrat_font">We are one of the leading Dental Clinic</h3>
+                                                <h4 class="h4_title text-left text_color montserrat_font margin_B20 secondaryColor">WHY CHOOSE US
+                                                </h4>
+                                                <h3 class="ds_info text-left text_color montserrat_font">We are confident of helping you to get back your lost smile
+                                                </h3>
                                                 <p class="oc_info text-left text_color roboto_font w-100">
-                                                    equipped with latest technology. Our philosophy of happy smiles is defined by personalized care and high-tech treatments to our patients. Our ever enthusiastic and qualified family of dentists bring with them wide experience in their respective domains. We consider our duty completed when we provide complete patient satisfaction.
+                                                    You can trust in our dental experts to get remedy for various types of dental ailments that you may be facing. You can contact our clinic and get an appointment from one of our learned and experienced dentists with great ease.
                                                 </p>
                                                 <p class="oc_info text-left text_color roboto_font w-100">
-                                                    Our gentle approach has been an attractive force because of which we have been able to cater to patients of all ages from toddlers to adults. Parents have a strong faith in our dedication towards our young patients. The interactions and relaxing environment created by us has been a winner among younger patients. We become a part of their family providing utmost care and correct solutions for their dental problems.
-                                                </p>
-                                                <p class="oc_info text-left text_color roboto_font w-100">
-                                                    We are always available for patients to handle all types of emergency situations. Our friendly staff are well equipped for seamless follow up system which is appreciated always. We never compromise in providing highest standards of dental and safety procedures. You can entrust us with your utmost dental concerns and we promise to come up with tailor made solutions and ultimately associating with you for best oral health.
+                                                    We also use modern technology and have incorporated the latest equipments and accessories required to provide quality treatment. We make sure every patient who comes to our clinic goes back satisfied and happy.
                                                 </p>
                                             </article>
                                             <div className="oc_card  pt-3">
+                                                <article class="main_article maintain_div pt-3">
+                                                    <h4 class="h4_title text-left text_color montserrat_font margin_B20 secondaryColor">DENTAL HYGIENE & SAFETY VIDEO
+                                                    </h4>
+                                                </article>
                                                 <div className="video_data">
-                                                    <iframe width="560" height="335" src="https://www.youtube.com/embed/SCSh_oOatXc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                                </div>
+                                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/adGzcBs_p9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                                </div>
                                             </div>
                                             <div className="mt-5">
                                                 <a href="#menu" class="primary_btn roboto_font fw-bold me-5" >Discover More</a>
