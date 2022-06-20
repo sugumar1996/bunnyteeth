@@ -51,6 +51,15 @@ export default (props) => {
                                                     We are always available for patients to handle all types of emergency situations. Our friendly staff are well equipped for seamless follow up system which is appreciated always. We never compromise in providing highest standards of dental and safety procedures. You can entrust us with your utmost dental concerns and we promise to come up with tailor made solutions and ultimately associating with you for best oral health.
                                                 </p>
                                             </article>
+                                            <div className="oc_card  pt-3">
+                                                <div className="video_data">
+                                                    <iframe width="560" height="335" src="https://www.youtube.com/embed/SCSh_oOatXc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                                            <div className="mt-5">
+                                                <a href="#menu" class="primary_btn roboto_font fw-bold me-5" >Discover More</a>
+                                                <span className="h4_title text-left text_color montserrat_font margin_B20 secondaryColor">Watch Video</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

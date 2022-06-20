@@ -43,6 +43,15 @@ p {
     letter-spacing: 0.2px;
 }
 
+.primary_btn {
+    background: #3b61b9;
+    padding: 20px 40px;
+    color: #ffffff;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 18px;
+
+}
 
 
 .primary_black_color {
