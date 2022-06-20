@@ -60,7 +60,7 @@ export const Header = (props) => {
                   </li>
                 </ul>
               </li>
-              <li class="dropdown"><a href="#" className="roboto_font"><span>Treatments</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+              <li class="dropdown"><Link to="/treatments" href="#" className="roboto_font"><span>Treatments</span> <i class="bi bi-chevron-down dropdown-indicator"></i></Link>
                 <ul>
                   <li><a href="#" className="roboto_font">General Dentistry</a></li>
                   <li><a href="#" className="roboto_font">Smile Makeover</a></li>

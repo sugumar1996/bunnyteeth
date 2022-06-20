@@ -857,6 +857,7 @@ section {
 
     .navbar .dropdown ul li {
         min-width: 200px;
+        padding: 5px;
     }
 
     .navbar .dropdown ul a {
@@ -1522,7 +1523,7 @@ section {
 .app_banner .app_banner_wrap{
     background-color: transparent;
     background-image: linear-gradient(45deg, #AC4186 0%, #F6A9B8 100%);
-    padding: 126px 0;
+    padding: 98px 0;
     position: relative;
 }
 .app_banner .app_banner_wrap header .h3_title{
@@ -1541,8 +1542,22 @@ section {
     left: 0;
     position: absolute;
 }
+.treatments_wrapper .banner_overlay.treatments_shadow{
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 24% auto;
+    opacity: 0.1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0px;
+    position: absolute;
+}
 .aboutus_shadow{
     background-image: url(../assets/images/thumbnails/aboutTheme.png); 
+}
+.treatments_shadow{
+    background-image: url(../assets/images/thumbnails/theme16.svg); 
 }
 /* About Component Start Here */
 .about_us_image{
@@ -1614,4 +1629,22 @@ section {
     transition-duration: 0.3s;
     transition-timing-function: ease;
     transition-delay: initial;
+}
+.about_us_image.treatment_banner{
+    background-image: url(../assets/images/thumbnails/theme18.png);
+    background-repeat: no-repeat;
+    background-size: 65% auto;
+    padding: 30px 10px 10px 20px;
+    background-position: left;
+}
+.dental_services_overlay{
+    background-image: url(../assets/images/thumbnails/theme19.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
 }
