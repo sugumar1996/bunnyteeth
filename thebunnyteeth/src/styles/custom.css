@@ -1048,9 +1048,11 @@ section {
 .py_80 {
     padding: 80px 0;
 }
-.py_40{
+
+.py_40 {
     padding: 40px 0;
 }
+
 .container.custom_container {
     padding: 0 8%;
 }
@@ -1062,9 +1064,11 @@ section {
 .roboto_font {
     font-family: 'Roboto', sans-serif;
 }
-.border_radius_10PX{
+
+.border_radius_10PX {
     border-radius: 10px;
 }
+
 .primary_color_bg {
     background: #AC4186;
 }
@@ -1090,13 +1094,100 @@ section {
     height: calc(100% - 106px);
     margin-top: 106px;
 }
-.margin_top_header{
+
+.margin_top_header {
     margin-top: 100px;
 }
+
 .hero_banner {
     width: 100%;
     display: block;
     float: left;
+}
+
+.banner_content {
+    background: #FDFDFDA6;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    padding: 4em 3em 4em 3em;
+    border-radius: 10px;
+    position: relative;
+}
+
+.main_banner {
+    padding: 10em 0 0 0;
+}
+
+.awsome_card {
+    background-color: #ffffff;
+}
+
+.awsome_card .awsome_card_inner {
+    background-color: #FFFFFF;
+    padding: 2em 2em 2em 2em;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px 10px 10px 10px;
+}
+.cc_inner_wrap{
+    position: relative;
+    top: -132px;
+}
+.cc_inner {
+    background-color: transparent;
+    background-image: linear-gradient(45deg, #AC4186 0%, #F6A9B8 100%);
+    padding: 5em 2em 5em 2em;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-radius: 14px 14px 14px 14px;
+}
+
+.multiple_card {
+    width: 197px;
+    padding: 29px 0px 0;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    transform: rotate(0deg);
+}
+
+.contact_details .h3_title {
+    padding: 24px 0px 0px 0px;
+    color: #FFFFFF;
+    font-size: 38px !important;
+}
+
+.contact_details .h4_title {
+    color: #FFFFFF;
+    font-size: 21px !important;
+    font-weight: 600;
+}
+
+.awsome_card .ds_pic {
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.awsome_card .h3_title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #AC4186;
+}
+
+.awsome_card .h4_title {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5px;
+    color: #252525;
+}
+
+.hero_banner .hb_inner_wrap {
+    width: 100%;
+    display: block;
+    float: left;
+    height: 75vh;
 }
 
 .hero_banner .bg_layout {
@@ -1108,7 +1199,7 @@ section {
 }
 
 .banner_hero_style {
-    /* position: absolute; */
+    position: absolute;
     top: 22px;
     height: 90%;
     width: 100%;
@@ -1513,25 +1604,27 @@ section {
 
 /* Parent Speaks Section end */
 /* Social Media Section Start here */
-.social_media .social_media_wrap .background_banner{
+.social_media .social_media_wrap .background_banner {
     height: 60vh;
     display: inline-block;
     overflow: hidden;
 }
 
 /* About Component Start Here */
-.app_banner .app_banner_wrap{
+.app_banner .app_banner_wrap {
     background-color: transparent;
     background-image: linear-gradient(45deg, #AC4186 0%, #F6A9B8 100%);
     padding: 98px 0;
     position: relative;
 }
-.app_banner .app_banner_wrap header .h3_title{
+
+.app_banner .app_banner_wrap header .h3_title {
     font-size: 64px;
     font-weight: 700;
     letter-spacing: -2px;
 }
-.app_banner .app_banner_wrap .banner_overlay{
+
+.app_banner .app_banner_wrap .banner_overlay {
     background-position: 800px -16px;
     background-repeat: no-repeat;
     background-size: 45% auto;
@@ -1542,7 +1635,8 @@ section {
     left: 0;
     position: absolute;
 }
-.treatments_wrapper .banner_overlay.treatments_shadow{
+
+.treatments_wrapper .banner_overlay.treatments_shadow {
     background-position: 100%;
     background-repeat: no-repeat;
     background-size: 24% auto;
@@ -1553,21 +1647,25 @@ section {
     left: 0px;
     position: absolute;
 }
-.aboutus_shadow{
-    background-image: url(../assets/images/thumbnails/aboutTheme.png); 
+
+.aboutus_shadow {
+    background-image: url(../assets/images/thumbnails/aboutTheme.png);
 }
-.treatments_shadow{
-    background-image: url(../assets/images/thumbnails/theme16.svg); 
+
+.treatments_shadow {
+    background-image: url(../assets/images/thumbnails/theme16.svg);
 }
+
 /* About Component Start Here */
-.about_us_image{
+.about_us_image {
     background-image: url(../assets/images/thumbnails/theme10.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: 95% auto;
     padding: 3em 3em 3em 3em;
 }
-.about_overlay_banner{
+
+.about_overlay_banner {
     background-image: url(../assets/images/thumbnails/theme11.png);
     background-position: 75em -20em;
     background-repeat: no-repeat;
@@ -1578,18 +1676,21 @@ section {
     left: 0;
     position: absolute;
 }
-.teamCard_inner_wrap{
+
+.teamCard_inner_wrap {
     background-color: #AC4186;
-    
+
 }
-.teamCard_info{
+
+.teamCard_info {
     color: #FFFFFF;
-    text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     font-size: 15px;
     font-weight: 400;
 
 }
-.teamCard_img{
+
+.teamCard_img {
     transition-duration: 0.3s;
     border-radius: 10px;
     height: auto;
@@ -1601,7 +1702,8 @@ section {
     transition-delay: initial;
     cursor: pointer;
 }
-.teamCard_img:hover{
+
+.teamCard_img:hover {
     transform: translateY(-8px);
     transition: all ease .3s;
     transition-property: all;
@@ -1609,7 +1711,8 @@ section {
     transition-timing-function: ease;
     transition-delay: initial;
 }
-.teamCardText .h4_title:hover{
+
+.teamCardText .h4_title:hover {
     color: #229631;
     transition: all ease .3s;
     transition-property: all;
@@ -1617,7 +1720,8 @@ section {
     transition-timing-function: ease;
     transition-delay: initial;
 }
-.teamCardText .h4_title{
+
+.teamCardText .h4_title {
     margin-bottom: 10px;
     color: #FFFFFF;
     font-size: 16px;
@@ -1630,14 +1734,16 @@ section {
     transition-timing-function: ease;
     transition-delay: initial;
 }
-.about_us_image.treatment_banner{
+
+.about_us_image.treatment_banner {
     background-image: url(../assets/images/thumbnails/theme18.png);
     background-repeat: no-repeat;
     background-size: 65% auto;
     padding: 30px 10px 10px 20px;
     background-position: left;
 }
-.dental_services_overlay{
+
+.dental_services_overlay {
     background-image: url(../assets/images/thumbnails/theme19.png);
     background-position: top left;
     background-repeat: no-repeat;
