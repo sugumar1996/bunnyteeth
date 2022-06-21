@@ -62,8 +62,8 @@ export const Header = (props) => {
               </li>
               <li class="dropdown"><Link to="/treatments" href="#" className="roboto_font"><span>Treatments</span> <i class="bi bi-chevron-down dropdown-indicator"></i></Link>
                 <ul>
-                  <li><a href="#" className="roboto_font">General Dentistry</a></li>
-                  <li><a href="#" className="roboto_font">Smile Makeover</a></li>
+                  <li><Link to="/general-dentistry" href="#" className="roboto_font">General Dentistry</Link></li>
+                  <li><Link to="/smile-makeover" href="#" className="roboto_font">Smile Makeover</Link></li>
                   <li><a href="#" className="roboto_font">Dental Implants</a></li>
                   <li><a href="#" className="roboto_font">Kids Dentistry</a></li>
                   <li><a href="#" className="roboto_font">Sedation Dentistry</a></li>

@@ -1635,7 +1635,20 @@ section {
     left: 0;
     position: absolute;
 }
-
+.menus_wrapper .banner_overlay.menu_routes_bg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 27% auto;
+    opacity: 0.2;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0px;
+    position: absolute;
+}
+.banner_overlay.general_bg{
+    background-image: url(../assets/images/thumbnails/theme25.svg);
+}
 .treatments_wrapper .banner_overlay.treatments_shadow {
     background-position: 100%;
     background-repeat: no-repeat;
