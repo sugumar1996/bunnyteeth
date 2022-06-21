@@ -64,7 +64,7 @@ export const Header = (props) => {
                 <ul>
                   <li><Link to="/general-dentistry" href="#" className="roboto_font">General Dentistry</Link></li>
                   <li><Link to="/smile-makeover" href="#" className="roboto_font">Smile Makeover</Link></li>
-                  <li><a href="#" className="roboto_font">Dental Implants</a></li>
+                  <li><Link to="/dental-implants" href="#" className="roboto_font">Dental Implants</Link></li>
                   <li><a href="#" className="roboto_font">Kids Dentistry</a></li>
                   <li><a href="#" className="roboto_font">Sedation Dentistry</a></li>
                   <li><a href="#" className="roboto_font">Dentures</a></li>

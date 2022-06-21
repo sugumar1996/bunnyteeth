@@ -1128,10 +1128,12 @@ section {
     box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
     border-radius: 10px 10px 10px 10px;
 }
-.cc_inner_wrap{
+
+.cc_inner_wrap {
     position: relative;
     top: -132px;
 }
+
 .cc_inner {
     background-color: transparent;
     background-image: linear-gradient(45deg, #AC4186 0%, #F6A9B8 100%);
@@ -1635,7 +1637,8 @@ section {
     left: 0;
     position: absolute;
 }
-.menus_wrapper .banner_overlay.menu_routes_bg{
+
+.menus_wrapper .banner_overlay.menu_routes_bg {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 27% auto;
@@ -1646,9 +1649,16 @@ section {
     left: 0px;
     position: absolute;
 }
-.banner_overlay.general_bg{
+
+.about_overlay_banner.treatment_overlay.multiple_overlay {
+    top: -170px !important;
+    left: 125px !important;
+}
+
+.banner_overlay.general_bg {
     background-image: url(../assets/images/thumbnails/theme25.svg);
 }
+
 .treatments_wrapper .banner_overlay.treatments_shadow {
     background-position: 100%;
     background-repeat: no-repeat;
@@ -1689,16 +1699,19 @@ section {
     left: 0;
     position: absolute;
 }
-.about_overlay_banner.treatment_overlay{
+
+.about_overlay_banner.treatment_overlay {
     background-position: right;
     height: 700px;
     top: -130px;
     left: 0;
     position: absolute;
 }
-.about_us_image.home_about_overlay{
+
+.about_us_image.home_about_overlay {
     background-image: url(../assets/images/thumbnails/theme22.png) !important;
 }
+
 .teamCard_inner_wrap {
     background-color: #AC4186;
 
@@ -1775,4 +1788,15 @@ section {
     top: 0;
     left: 0;
     position: absolute;
+}
+.sidemenu_card{
+    position: relative;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+    margin: 1em 1em 1em 1em;
+    padding: 2em 2em 2em 2em;
+    border-radius: 10px 10px 10px 10px;
+}
+.sidemenu_card .ds_info{
+    font-size: 28px;
 }

@@ -3,5 +3,6 @@ export const routes = {
     ABOUT: '/about',
     TREATMENTS: '/treatments',
     GENERAL_DENTISTRY: '/general-dentistry',
-    SMILE_MAKE_OVER: '/smile-makeover'
+    SMILE_MAKE_OVER: '/smile-makeover',
+    DENTAL_IMPLANTS: '/dental-implants'
 }

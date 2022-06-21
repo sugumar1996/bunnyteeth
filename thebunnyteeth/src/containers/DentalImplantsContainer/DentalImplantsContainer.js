@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import SmileMakeOverComponent from 'components/SmileMakeOverComponent/SmileMakeOverComponent';
+import DentalImplantsComponent from 'components/DentalImplantsComponent/DentalImplantsComponent';
 
-class SmileMakeOverContainer extends Component {
+class DentalImplantsContainer extends Component {
 
     constructor(props) {
         super(props);
@@ -18,7 +18,7 @@ class SmileMakeOverContainer extends Component {
     render() {
         return (
             <>
-                <SmileMakeOverComponent
+                <DentalImplantsComponent
                     {...this.props}
                 />
             </>
@@ -40,4 +40,4 @@ const mapDispatchToProps = (dispatch) => {
 }
 
 
-export default connect(mapStateToProps, mapDispatchToProps)(SmileMakeOverContainer);
+export default connect(mapStateToProps, mapDispatchToProps)(DentalImplantsContainer);
