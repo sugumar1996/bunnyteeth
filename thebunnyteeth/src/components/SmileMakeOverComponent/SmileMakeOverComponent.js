@@ -12,7 +12,7 @@ export default (props) => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <header className="maintain_div text-center">
-                                    <h3 className="h3_title montserrat_font m-0 text-white montserrat_font">Treatments
+                                    <h3 className="h3_title montserrat_font m-0 text-white montserrat_font">SMILE MAKEOVER
                                     </h3>
                                 </header>
                             </div>

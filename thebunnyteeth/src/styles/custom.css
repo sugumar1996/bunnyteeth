@@ -1676,6 +1676,13 @@ section {
     left: 0;
     position: absolute;
 }
+.about_overlay_banner.treatment_overlay{
+    background-position: right;
+    height: 700px;
+    top: -130px;
+    left: 0;
+    position: absolute;
+}
 .about_us_image.home_about_overlay{
     background-image: url(../assets/images/thumbnails/theme22.png) !important;
 }
