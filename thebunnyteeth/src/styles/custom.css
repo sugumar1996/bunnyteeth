@@ -34,6 +34,10 @@ p {
     color: #3b61b9;
 }
 
+.padding_50 {
+    padding: 50px 0;
+}
+
 #navbar li a.primary_btn {
     background: #3b61b9;
     padding: 12px 24px;
@@ -1789,7 +1793,8 @@ section {
     left: 0;
     position: absolute;
 }
-.sidemenu_card{
+
+.sidemenu_card {
     position: relative;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
@@ -1797,6 +1802,76 @@ section {
     padding: 2em 2em 2em 2em;
     border-radius: 10px 10px 10px 10px;
 }
-.sidemenu_card .ds_info{
+
+.sidemenu_card .ds_info {
     font-size: 28px;
+}
+
+.sidemenu_list {
+    font-weight: 500;
+    font-size: 15px;
+    color: #ac4186;
+    transition: all 0.3s;
+}
+
+.sidemenu_list:hover {
+    transition: all 0.3s;
+    color: #ac4186;
+    opacity: 0.7;
+}
+
+.quote_content .h4_title {
+    font-size: 42px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 20px;
+    letter-spacing: -2px;
+}
+
+.dental_services.why_choose .dental_services_wrap{
+    background-color: #ac4186 !important;
+    background-image: none !important;
+}
+
+.why_choose .why_choose_title .h3_title {
+    color: #ffffff;
+    margin: -20px 0px 0px 70px;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 25px;
+    letter-spacing: -0.2px;
+    text-align: left;
+}
+.media_object .ds_pic {
+    width: 40px;
+    height: 40px;
+}
+.media_object .h5_title{
+    padding: 0px 0px 0px 0px;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.media_object .ds_info{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 26px;
+    transition: all .4s ease;
+    margin-bottom: 10px;
+}
+
+.why_background_image{
+    position: absolute;
+    top: 0;
+    /* width: 100%; */
+    /* height: 100%; */
+    right: 0;
+    width: 34%;
+}
+.why_background_image .why_background_image_wrap{
+    width: 100%;
 }
