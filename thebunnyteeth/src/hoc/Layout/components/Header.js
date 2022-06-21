@@ -39,7 +39,7 @@ export const Header = (props) => {
 
   let headerTabsContent = (
     <>
-     <header id="header" class="header  fixed-top d-flex align-items-center">
+      <header id="header" class="header  fixed-top d-flex align-items-center">
         <div class="w-100 d-flex align-items-center justify-content-between">
           <div className="d-flex align-items-center justify-content-between">
             <a href="index.html" class="main_logo d-flex align-items-center mr-2">
@@ -65,14 +65,14 @@ export const Header = (props) => {
                   <li><Link to="/general-dentistry" href="#" className="roboto_font">General Dentistry</Link></li>
                   <li><Link to="/smile-makeover" href="#" className="roboto_font">Smile Makeover</Link></li>
                   <li><Link to="/dental-implants" href="#" className="roboto_font">Dental Implants</Link></li>
-                  <li><a href="#" className="roboto_font">Kids Dentistry</a></li>
-                  <li><a href="#" className="roboto_font">Sedation Dentistry</a></li>
-                  <li><a href="#" className="roboto_font">Dentures</a></li>
-                  <li><a href="#" className="roboto_font">Bridges & Crowns</a></li>
-                  <li><a href="#" className="roboto_font">Clear Aligners / Invisible Braces</a></li>
-                  <li><a href="#" className="roboto_font">Orthodontic Treatment</a></li>
-                  <li><a href="#" className="roboto_font">Wisdom Tooth Removal</a></li>
-                  <li><a href="#" className="roboto_font">Root Canal</a></li>
+                  <li><Link to="/kids-dentistry" href="#" className="roboto_font">Kids Dentistry</Link></li>
+                  <li><Link to="/sedation-dentistry" href="#" className="roboto_font">Sedation Dentistry</Link></li>
+                  <li><Link to="/dentures" href="#" className="roboto_font">Dentures</Link></li>
+                  <li><Link to="/bridges-crowns" href="#" className="roboto_font">Bridges & Crowns</Link></li>
+                  <li><Link to="/clear-aligners-invisible-braces" href="#" className="roboto_font">Clear Aligners / Invisible Braces</Link></li>
+                  <li><Link to="/orthodontic-treatment" href="#" className="roboto_font">Orthodontic Treatment</Link></li>
+                  <li><Link to="/wisdom-tooth-removal" href="#" className="roboto_font">Wisdom Tooth Removal</Link></li>
+                  <li><Link to="/root-canal" href="#" className="roboto_font">Root Canal</Link></li>
                 </ul>
               </li>
               <li><a href="#menu" className="roboto_font">Testimonials</a></li>
