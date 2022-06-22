@@ -47,6 +47,11 @@ p {
     letter-spacing: 0.2px;
 }
 
+.position_maintain {
+    position: relative;
+    top: -190px;
+}
+
 .primary_btn {
     background: #3b61b9;
     padding: 20px 40px;
@@ -1828,7 +1833,7 @@ section {
     letter-spacing: -2px;
 }
 
-.dental_services.why_choose .dental_services_wrap{
+.dental_services.why_choose .dental_services_wrap {
     background-color: #ac4186 !important;
     background-image: none !important;
 }
@@ -1843,11 +1848,13 @@ section {
     letter-spacing: -0.2px;
     text-align: left;
 }
+
 .media_object .ds_pic {
     width: 40px;
     height: 40px;
 }
-.media_object .h5_title{
+
+.media_object .h5_title {
     padding: 0px 0px 0px 0px;
     color: #ffffff;
     font-size: 21px;
@@ -1856,7 +1863,8 @@ section {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-.media_object .ds_info{
+
+.media_object .ds_info {
     font-size: 15px;
     font-weight: 300;
     line-height: 26px;
@@ -1864,7 +1872,7 @@ section {
     margin-bottom: 10px;
 }
 
-.why_background_image{
+.why_background_image {
     position: absolute;
     top: 0;
     /* width: 100%; */
@@ -1872,6 +1880,77 @@ section {
     right: 0;
     width: 34%;
 }
-.why_background_image .why_background_image_wrap{
+
+.why_background_image .why_background_image_wrap {
     width: 100%;
+}
+
+footer .media_object {
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+footer .media_object .h5_title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #AC4186;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+footer .media_object .ds_info {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+    transition: all .4s ease;
+}
+
+footer .contact_card {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    margin: 1em 0;
+    padding: 4em 2em 4em 2em;
+    background: #FFFFFF;
+}
+
+footer .media_object .inner_icon {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #AC4186;
+    text-align: center;
+}
+
+footer .media_object .inner_icon i {
+    font-size: 40px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.footer_curve {
+    border-radius: 0 0 100% 100%/150px;
+    padding-bottom: 150px;
+}
+
+.footer_block .dental_services_wrap {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #AC4186 0%, #F6A9B8 100%);
+}
+
+.copy_right .copy_right_wrapper .main_logo {
+    margin: 0 auto;
+    height: 106px;
+    margin-bottom: 20px;
+}
+.copy_right .copy_right_wrapper .cr_info{
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.cr_main_block p{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #555555;
 }

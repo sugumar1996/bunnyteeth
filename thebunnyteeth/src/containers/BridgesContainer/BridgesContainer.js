@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import DentalImplantsComponent from 'components/DentalImplantsComponent/DentalImplantsComponent';
+import BridgesComponent from 'components/BridgesComponent/BridgesComponent';
 
 class BridgesContainer extends Component {
 
@@ -18,7 +18,7 @@ class BridgesContainer extends Component {
     render() {
         return (
             <>
-                <DentalImplantsComponent
+                <BridgesComponent
                     {...this.props}
                 />
             </>
