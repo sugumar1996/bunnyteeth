@@ -7,12 +7,12 @@ export default (props) => {
         <>
             <section className="app_banner margin_top_header treatments_wrapper menus_wrapper">
                 <div className="app_banner_wrap">
-                    <div className="banner_overlay menu_routes_bg general_bg"></div>
+                    <div className="banner_overlay menu_routes_bg general_bg kids_bg"></div>
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
                                 <header className="maintain_div text-center">
-                                    <h3 className="h3_title montserrat_font m-0 text-white montserrat_font">Dental Implants
+                                    <h3 className="h3_title montserrat_font m-0 text-white montserrat_font position-relative">Sedation Dentistry
                                     </h3>
                                 </header>
                             </div>
@@ -31,62 +31,78 @@ export default (props) => {
                                             <div className="about_overlay_banner treatment_overlay multiple_overlay"></div>
                                             <article class="main_article maintain_div">
                                                 <h3 class="ds_info text-left text_color montserrat_font">
-                                                    Dental Implants
+                                                SLEEP DENTISTRY
                                                 </h3>
                                             </article>
                                             <div className="normal_banner maintain_div position-relative">
                                                 <div className="inner_image_wrap mb-3 pt-3">
-                                                    <img src={baseImagePath('thumbnails/theme27.jpg')} class="custom_img "
+                                                    <img src={baseImagePath('thumbnails/sadation.jpg')} class="custom_img "
                                                         alt="Alphabet Internation School" />
                                                 </div>
                                             </div>
                                             <p className="oc_info text-left text_color roboto_font w-100">
-                                                We offer dental implants to patients who are eligible to avail this procedure. These replacement tooth roots are created from titanium alloys or titanium. It helps stimulate bone growth while preventing bone resorption. It replaces your missing teeth the natural way and restores function to allow you to bite, chew and eat food.
+                                                We are aware that some patients experience very high anxiety levels when making dental visits. It is this fear of having to bear the pain that restricts many patients to make the visit. However, we are well-trained to provide top-quality sedation or sleep dentistry, thus reducing your fears.
+
                                             </p>
                                             <p className="oc_info text-left text_color roboto_font w-100">
-                                                Our dental implants will provide you with lots of benefits like improved speech, appearance, comfort, oral health, self-esteem and easier eating. You can also find it convenient and enjoy having them for a lifetime with good care.
+                                                With sedation dentistry, you can feel fully relaxed while undergoing the dental procedure. Although you do not sleep, you become less aware of the immediate surroundings. You will simply not know what our dentists will be performing except follow some basic instructions. We administer this sedation intravenously, through your veins.
+
                                             </p>
                                             <p className="oc_info text-left text_color roboto_font w-100">
-                                                The cost involved in availing dental implants is based on the bone quality and brand selected. We do offer top-quality, affordable dental implantation procedure, enabling you to lead a normal life and smile wide without any worry or inconvenience.
+                                                Sedation works very quickly and you are likely to feel very less or no pain throughout the procedure. Our qualified and experienced dentist will constantly monitor your vitals. Accordingly, the sedation dosage will be adjusted according to your health requirements. You will experience amnesia for a long period, thus making you unaware about what is going on with the procedure. This amnesia condition allows us to carry out multiple procedures as required in just a single appointment.
+
                                             </p>
                                             <p className="oc_info text-left text_color roboto_font w-100">
-                                                We also recommend you to quit or reduce smoking to avoid dental implant failures. For the initial few days, you will experience some swelling and pain in the region. We will suggest you with some pain medication and therapies practicing which you will feel relief and become normal quickly. The stitches used around the implant are dissolvable. But if you feel uncomfortable, our dentists will have it removed.
+                                                We will first diagnose your prevailing health condition and check your existing medication use and medical history. This is to find out if your body can permit taking sedation density procedures or not. Patients with significant medical considerations or of more age will require consulting their medical specialist or primary physician first. For IV Sedation, good candidates are those:
+
                                             </p>
-                                            <p className="oc_info text-left text_color roboto_font w-100">
-                                                You should take proper care of your dental implants like that of your natural teeth. We suggest you to visit our clinic after every six month for cleaning and thorough check-up to enjoy optimal oral health.
-                                            </p>
-                                            <p className="oc_info text-left text_color roboto_font w-100">
-                                                We offer our patients with multiple and single tooth implants as the circumstances require. Single tooth is suggested to those with single or several missing teeth. If there are large gaps and full mouth replacement is not desired, then multiple implants are recommended.
-                                            </p>
-                                            <p className="oc_info text-left text_color roboto_font w-100">
-                                                We offer another advanced procedure, named, ‘All-on-4-implants’. With merely 4 implants, we replace easily full single-jaw missing teeth. It is indeed a cost-effective solution.
-                                            </p>
-                                            <p className="oc_info text-left text_color roboto_font w-100">
-                                                We strongly recommend children to have bi-annual check-up to ensure they grow teeth properly and in the right shape. Our dental clinic will provide you with all the information that you wish to know about your child’s tooth. Whatever questions you have in mind will be answered by our expert dentists. We also suggest parents to maintain oral hygiene for their babies. This will ensure that your baby’s mouth is clear and clean of harmful germs.
-                                            </p>
-                                            <p className="oc_info text-left text_color roboto_font w-100">
-                                                We do offer various types of preventive treatment for deciduous or milk teeth.
-                                            </p>
+
                                             <div className="maintain_div">
                                                 <ul className="p-1 pt-0">
                                                     <li className="oc_info text-left text_color roboto_font w-100">
-                                                        Fluoride Treatments: It helps increase teeth strength by bolstering enamel and destroying bacteria and acid.
-                                                    </li>
-                                                    <li className="oc_info text-left text_color roboto_font w-100">Dental sealants: We spread this translucent material on your child’s teeth to prevent cavity formation and further spreading.
-                                                    </li>
-                                                    <li className="oc_info text-left text_color roboto_font w-100">Mouth Guards: We recommend children to wear mouth guards. We create them at our clinic to suit your child’s unique mouth shape.
+                                                        Requiring multiple or longer dentistry procedures
                                                     </li>
                                                     <li className="oc_info text-left text_color roboto_font w-100">
-                                                        Space Maintainers: We offer this fully customized, specialised dental appliance to suit your child’s mouth.
+                                                        Having strong gag reflected
+                                                    </li>
+                                                    <li className="oc_info text-left text_color roboto_font w-100">
+                                                        Require to undergo painful dental work
+                                                    </li>
+                                                    <li className="oc_info text-left text_color roboto_font w-100">
+                                                        exhibiting high to moderate dental anxiety
                                                     </li>
                                                 </ul>
                                             </div>
                                             <p className="oc_info text-left text_color roboto_font w-100">
-                                                We also administer laughing gas sedation or sleep dentistry for kids based on the prevailing circumstance and needs. We generally recommended administering NOIS on children of 8+ years. We address their dental problem with intravenous sedation or Day Care General Anaesthesia.
+                                                Our talented dentists will provide you with a sitting and will explain to you the entire procedure and how it is done. This way, we will remove all your anxiety and ensure providing the best possible sedation dentistry procedures.
                                             </p>
                                             <p className="oc_info text-left text_color roboto_font w-100">
-                                                We do understand that children are prone to panic or experience anxiety when visiting dentists. Hence, we make sure that your child is made comfort with our soothing, playful words and remove their anxiety and stress.
+                                                We will carry out this simple, painless procedure to clean this inner layer. Otherwise, infection will spread across your tooth’s root canal system, thus causing abscess.
                                             </p>
+                                            <p className="oc_info text-left text_color roboto_font w-100">
+                                                We will administer a local anaesthesia so that you do not feel any pain during this procedure. Once the procedure is completed, you can return back to your work directly without any worry. But you should wait until you feel normal again from numbness before having any food.
+                                            </p>
+                                            <p className="oc_info text-left text_color roboto_font w-100">
+                                                To avail this procedure, you just need to make a single visit to our dental clinic with prior appointment. However, if you suffer from severely infected tooth, then chances are you might have to make 2 to 3 visits. We will diagnose your situation and suggest what is better for you.
+                                            </p>
+                                            <p className="oc_info text-left text_color roboto_font w-100">
+                                                After this procedure, we recommend you not to chew or bite with your treated tooth until it has restored through crown or permanent filling as deemed necessary.
+                                            </p>
+                                            <p className="oc_info text-left text_color roboto_font w-100">
+                                                Avoid drinking or smoking and do take your prescribed pain medications.
+                                            </p>
+                                            <p className="oc_info text-left text_color roboto_font w-100">
+                                                We offer our patients with the latest laser-assigned root canal procedure to ensure painless treatment. Using lasers, we can easily target the infected material and bacteria growing on your teeth with great accuracy.
+                                            </p>
+                                            <p className="oc_info text-left text_color roboto_font w-100">
+                                                We have the necessary expertise, experience and knowledge to carry out this laser-assigned root canal procedure. Our endomotor ensures highly precise, pain-free treatment. We also ensure 100% sterilization and low-level dental radiation.
+                                            </p>
+                                            <p className="oc_info text-left text_color roboto_font w-100">
+                                                Our expert team are trained to provide all our patients with utmost care and ensure you have quick and painless root canal treatment at affordable rates.
+                                            </p>
+
+
+
                                         </div>
                                     </div>
                                     <div className="col-lg-5 d-flex">

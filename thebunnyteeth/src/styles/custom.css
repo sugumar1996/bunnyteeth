@@ -1954,3 +1954,11 @@ footer .media_object .inner_icon i {
     letter-spacing: 0.5px;
     color: #555555;
 }
+.app_banner .banner_overlay.general_bg.kids_bg{
+    background-image: url(../assets/images/thumbnails/kids.svg);
+    opacity: 0.1;
+}
+.app_banner .banner_overlay.general_bg.dentures_bg{
+    background-image: url(../assets/images/thumbnails/denture.png);
+    opacity: 0.2;
+}

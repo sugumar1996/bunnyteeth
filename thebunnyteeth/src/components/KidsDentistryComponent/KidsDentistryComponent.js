@@ -7,12 +7,12 @@ export default (props) => {
         <>
             <section className="app_banner margin_top_header treatments_wrapper menus_wrapper">
                 <div className="app_banner_wrap">
-                    <div className="banner_overlay menu_routes_bg general_bg"></div>
+                    <div className="banner_overlay menu_routes_bg general_bg kids_bg"></div>
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
                                 <header className="maintain_div text-center">
-                                    <h3 className="h3_title montserrat_font m-0 text-white montserrat_font">Dental Implants
+                                    <h3 className="h3_title montserrat_font m-0 text-white montserrat_font position-relative">Kids Dentistry
                                     </h3>
                                 </header>
                             </div>
@@ -31,42 +31,25 @@ export default (props) => {
                                             <div className="about_overlay_banner treatment_overlay multiple_overlay"></div>
                                             <article class="main_article maintain_div">
                                                 <h3 class="ds_info text-left text_color montserrat_font">
-                                                    Dental Implants
+                                                    Kids Dentistry
                                                 </h3>
                                             </article>
                                             <div className="normal_banner maintain_div position-relative">
                                                 <div className="inner_image_wrap mb-3 pt-3">
-                                                    <img src={baseImagePath('thumbnails/theme27.jpg')} class="custom_img "
+                                                    <img src={baseImagePath('thumbnails/kids_den.jpg')} class="custom_img "
                                                         alt="Alphabet Internation School" />
                                                 </div>
                                             </div>
                                             <p className="oc_info text-left text_color roboto_font w-100">
-                                                We offer dental implants to patients who are eligible to avail this procedure. These replacement tooth roots are created from titanium alloys or titanium. It helps stimulate bone growth while preventing bone resorption. It replaces your missing teeth the natural way and restores function to allow you to bite, chew and eat food.
-                                            </p>
-                                            <p className="oc_info text-left text_color roboto_font w-100">
-                                                Our dental implants will provide you with lots of benefits like improved speech, appearance, comfort, oral health, self-esteem and easier eating. You can also find it convenient and enjoy having them for a lifetime with good care.
-                                            </p>
-                                            <p className="oc_info text-left text_color roboto_font w-100">
-                                                The cost involved in availing dental implants is based on the bone quality and brand selected. We do offer top-quality, affordable dental implantation procedure, enabling you to lead a normal life and smile wide without any worry or inconvenience.
-                                            </p>
-                                            <p className="oc_info text-left text_color roboto_font w-100">
-                                                We also recommend you to quit or reduce smoking to avoid dental implant failures. For the initial few days, you will experience some swelling and pain in the region. We will suggest you with some pain medication and therapies practicing which you will feel relief and become normal quickly. The stitches used around the implant are dissolvable. But if you feel uncomfortable, our dentists will have it removed.
-                                            </p>
-                                            <p className="oc_info text-left text_color roboto_font w-100">
-                                                You should take proper care of your dental implants like that of your natural teeth. We suggest you to visit our clinic after every six month for cleaning and thorough check-up to enjoy optimal oral health.
-                                            </p>
-                                            <p className="oc_info text-left text_color roboto_font w-100">
-                                                We offer our patients with multiple and single tooth implants as the circumstances require. Single tooth is suggested to those with single or several missing teeth. If there are large gaps and full mouth replacement is not desired, then multiple implants are recommended.
-                                            </p>
-                                            <p className="oc_info text-left text_color roboto_font w-100">
-                                                We offer another advanced procedure, named, ‘All-on-4-implants’. With merely 4 implants, we replace easily full single-jaw missing teeth. It is indeed a cost-effective solution.
-                                            </p>
-                                            <p className="oc_info text-left text_color roboto_font w-100">
-                                                We strongly recommend children to have bi-annual check-up to ensure they grow teeth properly and in the right shape. Our dental clinic will provide you with all the information that you wish to know about your child’s tooth. Whatever questions you have in mind will be answered by our expert dentists. We also suggest parents to maintain oral hygiene for their babies. This will ensure that your baby’s mouth is clear and clean of harmful germs.
+                                                We are very much aware of the dental problems faced by children and the challenges that dentists face while treating them. Hence, we have managed to develop a kid-friendly environment and have toys around. This way, your child will feel comfortable at our dental clinic and will look forwards to visit again for the next appointment.
                                             </p>
                                             <p className="oc_info text-left text_color roboto_font w-100">
                                                 We do offer various types of preventive treatment for deciduous or milk teeth.
                                             </p>
+                                            <p className="oc_info text-left text_color roboto_font w-100">
+                                                The cost involved in availing dental implants is based on the bone quality and brand selected. We do offer top-quality, affordable dental implantation procedure, enabling you to lead a normal life and smile wide without any worry or inconvenience.
+                                            </p>
+                                            
                                             <div className="maintain_div">
                                                 <ul className="p-1 pt-0">
                                                     <li className="oc_info text-left text_color roboto_font w-100">
@@ -92,7 +75,7 @@ export default (props) => {
                                     <div className="col-lg-5 d-flex">
                                         <div class="left_content maintain_div sidemenu_card">
                                             <article class="main_article maintain_div">
-                                                <h4 class="h4_title text-left text_color montserrat_font margin_B20 secondaryColor">DENTAL IMPLANTS
+                                                <h4 class="h4_title text-left text_color montserrat_font margin_B20 secondaryColor">KIDS DENTISTRY
                                                 </h4>
                                                 <h3 class="ds_info text-left text_color montserrat_font" style={{ letterSpacing: "0.3px" }}>
                                                     Specialists
@@ -192,7 +175,7 @@ export default (props) => {
                                             </div>
                                             <div className="oc_card maintain_div">
                                                 <div className="video_data">
-                                                    <iframe width="100%" height="200" src="https://www.youtube.com/embed/K4qvMAxWWfQ?feature=oembed&rel=0&mute=0&loop=0&controls=1&autoplay=1">
+                                                    <iframe width="100%" height="200" src="https://www.youtube.com/embed/s1lbN53D3i8?feature=oembed&rel=0&mute=0&loop=0&controls=1">
                                                     </iframe>
                                                 </div>
                                             </div>
@@ -310,7 +293,7 @@ export default (props) => {
                                         <div className="why_background_image maintain_div h-100">
                                             <div className="why_background_image_wrap maintain_div h-100">
                                                 <div className="inner_wrap w-100 h-100">
-                                                    <img src={baseImagePath('thumbnails/hero.jpg')} class="custom_img"
+                                                    <img src={baseImagePath('thumbnails/hero2.jpg')} class="custom_img"
                                                         alt="Alphabet Internation School" />
                                                 </div>
                                             </div>

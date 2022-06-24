@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { baseImagePath } from 'utility/utility';
 
-export default (props) => {
+export default (props) => { debugger;
 
     return (
         <>

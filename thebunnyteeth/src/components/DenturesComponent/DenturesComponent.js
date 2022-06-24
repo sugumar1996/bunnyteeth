@@ -7,12 +7,12 @@ export default (props) => {
         <>
             <section className="app_banner margin_top_header treatments_wrapper menus_wrapper">
                 <div className="app_banner_wrap">
-                    <div className="banner_overlay menu_routes_bg general_bg"></div>
+                    <div className="banner_overlay menu_routes_bg general_bg dentures_bg"></div>
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
                                 <header className="maintain_div text-center">
-                                    <h3 className="h3_title montserrat_font m-0 text-white montserrat_font">Dental Implants
+                                    <h3 className="h3_title montserrat_font m-0 text-white montserrat_font position-relative">Dentures
                                     </h3>
                                 </header>
                             </div>
@@ -31,62 +31,50 @@ export default (props) => {
                                             <div className="about_overlay_banner treatment_overlay multiple_overlay"></div>
                                             <article class="main_article maintain_div">
                                                 <h3 class="ds_info text-left text_color montserrat_font">
-                                                    Dental Implants
+                                                    DENTURES
                                                 </h3>
                                             </article>
                                             <div className="normal_banner maintain_div position-relative">
                                                 <div className="inner_image_wrap mb-3 pt-3">
-                                                    <img src={baseImagePath('thumbnails/theme27.jpg')} class="custom_img "
+                                                    <img src={baseImagePath('thumbnails/dentures_img.jpg')} class="custom_img "
                                                         alt="Alphabet Internation School" />
                                                 </div>
                                             </div>
                                             <p className="oc_info text-left text_color roboto_font w-100">
-                                                We offer dental implants to patients who are eligible to avail this procedure. These replacement tooth roots are created from titanium alloys or titanium. It helps stimulate bone growth while preventing bone resorption. It replaces your missing teeth the natural way and restores function to allow you to bite, chew and eat food.
+                                                You may experience various types of problems with your teeth including missing teeth. We can help you overcome such dental issues and provide with the most appropriate treatment. We can help you smile, be confident when meeting other people, speak properly without any problem and eat even hard to chew foods.
                                             </p>
                                             <p className="oc_info text-left text_color roboto_font w-100">
-                                                Our dental implants will provide you with lots of benefits like improved speech, appearance, comfort, oral health, self-esteem and easier eating. You can also find it convenient and enjoy having them for a lifetime with good care.
+                                                We offer custom-made dentures to restore your missing teeth, lost oral functions and overall face appearance.
                                             </p>
                                             <p className="oc_info text-left text_color roboto_font w-100">
-                                                The cost involved in availing dental implants is based on the bone quality and brand selected. We do offer top-quality, affordable dental implantation procedure, enabling you to lead a normal life and smile wide without any worry or inconvenience.
-                                            </p>
-                                            <p className="oc_info text-left text_color roboto_font w-100">
-                                                We also recommend you to quit or reduce smoking to avoid dental implant failures. For the initial few days, you will experience some swelling and pain in the region. We will suggest you with some pain medication and therapies practicing which you will feel relief and become normal quickly. The stitches used around the implant are dissolvable. But if you feel uncomfortable, our dentists will have it removed.
-                                            </p>
-                                            <p className="oc_info text-left text_color roboto_font w-100">
-                                                You should take proper care of your dental implants like that of your natural teeth. We suggest you to visit our clinic after every six month for cleaning and thorough check-up to enjoy optimal oral health.
-                                            </p>
-                                            <p className="oc_info text-left text_color roboto_font w-100">
-                                                We offer our patients with multiple and single tooth implants as the circumstances require. Single tooth is suggested to those with single or several missing teeth. If there are large gaps and full mouth replacement is not desired, then multiple implants are recommended.
-                                            </p>
-                                            <p className="oc_info text-left text_color roboto_font w-100">
-                                                We offer another advanced procedure, named, ‘All-on-4-implants’. With merely 4 implants, we replace easily full single-jaw missing teeth. It is indeed a cost-effective solution.
-                                            </p>
-                                            <p className="oc_info text-left text_color roboto_font w-100">
-                                                We strongly recommend children to have bi-annual check-up to ensure they grow teeth properly and in the right shape. Our dental clinic will provide you with all the information that you wish to know about your child’s tooth. Whatever questions you have in mind will be answered by our expert dentists. We also suggest parents to maintain oral hygiene for their babies. This will ensure that your baby’s mouth is clear and clean of harmful germs.
-                                            </p>
-                                            <p className="oc_info text-left text_color roboto_font w-100">
-                                                We do offer various types of preventive treatment for deciduous or milk teeth.
+                                                Based on your specific case, we offer our patients with different types of denture procedures like:
                                             </p>
                                             <div className="maintain_div">
                                                 <ul className="p-1 pt-0">
                                                     <li className="oc_info text-left text_color roboto_font w-100">
-                                                        Fluoride Treatments: It helps increase teeth strength by bolstering enamel and destroying bacteria and acid.
-                                                    </li>
-                                                    <li className="oc_info text-left text_color roboto_font w-100">Dental sealants: We spread this translucent material on your child’s teeth to prevent cavity formation and further spreading.
-                                                    </li>
-                                                    <li className="oc_info text-left text_color roboto_font w-100">Mouth Guards: We recommend children to wear mouth guards. We create them at our clinic to suit your child’s unique mouth shape.
+                                                        Full Dentures: Also referred to as complete dentures are performed to replace your entire natural teeth.
                                                     </li>
                                                     <li className="oc_info text-left text_color roboto_font w-100">
-                                                        Space Maintainers: We offer this fully customized, specialised dental appliance to suit your child’s mouth.
+                                                        Partial Dentures: This procedure is recommended if your surrounding natural teeth are weak enough to support the structures. For example, one or more teeth are missing and dental bridges.
+                                                    </li>
+                                                    <li className="oc_info text-left text_color roboto_font w-100">
+                                                        Complete dentures: They come with coloured plastic base. It replicates gum tissue as well as supports full set porcelain or plastic teeth.
+                                                    </li>
+                                                    <li className="oc_info text-left text_color roboto_font w-100">
+                                                        Immediate dentures: Immediate dentures can be refitted easily when compared to permanent dentures. It accommodates changes taking place in your mouth due to swelling of the gums and get back to its original place after healing.
+                                                    </li>
+                                                    <li className="oc_info text-left text_color roboto_font w-100">
+                                                        Overdentures: This alternative procedure is recommended if traditional dentures do not suit you. It is also suggested if you are left with few natural teeth.
+                                                    </li>
+                                                    <li className="oc_info text-left text_color roboto_font w-100">
+                                                        Implanted-supported dentures: Dental implants anchor these dentures and are considered to be a permanent fixture. It can easily replace any teeth number. They can also be attached in different ways. However, it should be treated and taken care of similar to traditional dentures.
                                                     </li>
                                                 </ul>
                                             </div>
                                             <p className="oc_info text-left text_color roboto_font w-100">
-                                                We also administer laughing gas sedation or sleep dentistry for kids based on the prevailing circumstance and needs. We generally recommended administering NOIS on children of 8+ years. We address their dental problem with intravenous sedation or Day Care General Anaesthesia.
+                                                We provide top-quality dentures to ensure your multiple missing teeth are taken care of. Dentures help improve your face structure and smile. You can also effortlessly chew food and be properly nourished. They also replace teeth causing oral health issues and extreme pain.
                                             </p>
-                                            <p className="oc_info text-left text_color roboto_font w-100">
-                                                We do understand that children are prone to panic or experience anxiety when visiting dentists. Hence, we make sure that your child is made comfort with our soothing, playful words and remove their anxiety and stress.
-                                            </p>
+
                                         </div>
                                     </div>
                                     <div className="col-lg-5 d-flex">
@@ -310,7 +298,7 @@ export default (props) => {
                                         <div className="why_background_image maintain_div h-100">
                                             <div className="why_background_image_wrap maintain_div h-100">
                                                 <div className="inner_wrap w-100 h-100">
-                                                    <img src={baseImagePath('thumbnails/hero.jpg')} class="custom_img"
+                                                    <img src={baseImagePath('thumbnails/hero3.jpg')} class="custom_img"
                                                         alt="Alphabet Internation School" />
                                                 </div>
                                             </div>

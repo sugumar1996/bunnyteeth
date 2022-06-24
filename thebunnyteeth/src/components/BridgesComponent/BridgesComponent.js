@@ -12,7 +12,7 @@ export default (props) => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <header className="maintain_div text-center">
-                                    <h3 className="h3_title montserrat_font m-0 text-white montserrat_font">Dental Implants
+                                    <h3 className="h3_title montserrat_font m-0 text-white montserrat_font">Dental Bridges / Crowns
                                     </h3>
                                 </header>
                             </div>
@@ -31,46 +31,26 @@ export default (props) => {
                                             <div className="about_overlay_banner treatment_overlay multiple_overlay"></div>
                                             <article class="main_article maintain_div">
                                                 <h3 class="ds_info text-left text_color montserrat_font">
-                                                    Dental Implants
+                                                Dental Bridges / Crowns
                                                 </h3>
                                             </article>
                                             <div className="normal_banner maintain_div position-relative">
                                                 <div className="inner_image_wrap mb-3 pt-3">
-                                                    <img src={baseImagePath('thumbnails/theme27.jpg')} class="custom_img "
+                                                    <img src={baseImagePath('thumbnails/bridges.jpeg')} class="custom_img "
                                                         alt="Alphabet Internation School" />
                                                 </div>
                                             </div>
                                             <p className="oc_info text-left text_color roboto_font w-100">
-                                                We offer dental implants to patients who are eligible to avail this procedure. These replacement tooth roots are created from titanium alloys or titanium. It helps stimulate bone growth while preventing bone resorption. It replaces your missing teeth the natural way and restores function to allow you to bite, chew and eat food.
+                                            On completion of root canal, we recommend a single gap or crown to cover tooth surface with the help of custom-made dental bridge. They replicate the tooth crown quite effectively and remain fixed to its place. They can help masticate food properly and restore missing gaps in your mouth. Availing Dental Bridges or crowns help maintain your lip and face structure as well as prevent putting excessive pressure on other teeth.
                                             </p>
                                             <p className="oc_info text-left text_color roboto_font w-100">
-                                                Our dental implants will provide you with lots of benefits like improved speech, appearance, comfort, oral health, self-esteem and easier eating. You can also find it convenient and enjoy having them for a lifetime with good care.
+                                            We offer three varieties of dental bridges/crowns like:
                                             </p>
-                                            <p className="oc_info text-left text_color roboto_font w-100">
-                                                The cost involved in availing dental implants is based on the bone quality and brand selected. We do offer top-quality, affordable dental implantation procedure, enabling you to lead a normal life and smile wide without any worry or inconvenience.
-                                            </p>
-                                            <p className="oc_info text-left text_color roboto_font w-100">
-                                                We also recommend you to quit or reduce smoking to avoid dental implant failures. For the initial few days, you will experience some swelling and pain in the region. We will suggest you with some pain medication and therapies practicing which you will feel relief and become normal quickly. The stitches used around the implant are dissolvable. But if you feel uncomfortable, our dentists will have it removed.
-                                            </p>
-                                            <p className="oc_info text-left text_color roboto_font w-100">
-                                                You should take proper care of your dental implants like that of your natural teeth. We suggest you to visit our clinic after every six month for cleaning and thorough check-up to enjoy optimal oral health.
-                                            </p>
-                                            <p className="oc_info text-left text_color roboto_font w-100">
-                                                We offer our patients with multiple and single tooth implants as the circumstances require. Single tooth is suggested to those with single or several missing teeth. If there are large gaps and full mouth replacement is not desired, then multiple implants are recommended.
-                                            </p>
-                                            <p className="oc_info text-left text_color roboto_font w-100">
-                                                We offer another advanced procedure, named, ‘All-on-4-implants’. With merely 4 implants, we replace easily full single-jaw missing teeth. It is indeed a cost-effective solution.
-                                            </p>
-                                            <p className="oc_info text-left text_color roboto_font w-100">
-                                                We strongly recommend children to have bi-annual check-up to ensure they grow teeth properly and in the right shape. Our dental clinic will provide you with all the information that you wish to know about your child’s tooth. Whatever questions you have in mind will be answered by our expert dentists. We also suggest parents to maintain oral hygiene for their babies. This will ensure that your baby’s mouth is clear and clean of harmful germs.
-                                            </p>
-                                            <p className="oc_info text-left text_color roboto_font w-100">
-                                                We do offer various types of preventive treatment for deciduous or milk teeth.
-                                            </p>
+                                            
                                             <div className="maintain_div">
                                                 <ul className="p-1 pt-0">
                                                     <li className="oc_info text-left text_color roboto_font w-100">
-                                                        Fluoride Treatments: It helps increase teeth strength by bolstering enamel and destroying bacteria and acid.
+                                                    Metal-Ceramic Crowns: They are durable, fused with porcelain, thus enhancing their strength. It is custom-designed to match your teeth’s original colour.
                                                     </li>
                                                     <li className="oc_info text-left text_color roboto_font w-100">Dental sealants: We spread this translucent material on your child’s teeth to prevent cavity formation and further spreading.
                                                     </li>

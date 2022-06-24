@@ -75,13 +75,13 @@ export const Header = (props) => {
                   <li><Link to="/root-canal" href="#" className="roboto_font">Root Canal</Link></li>
                 </ul>
               </li>
-              <li><a href="#menu" className="roboto_font">Testimonials</a></li>
-              <li class="dropdown"><a href="#" className="roboto_font"><span>Blog</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+              <li><Link to="/testimonials/" href="#menu" className="roboto_font">Testimonials</Link></li>
+              {/*<li class="dropdown"><a href="#" className="roboto_font"><span>Blog</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                 <ul>
                   <li><a href="#" className="roboto_font">Digital Implants</a></li>
                   <li><a href="#" className="roboto_font">Mouth Breathing</a></li>
                 </ul>
-              </li>
+  </li>*/}
               <li><a href="#menu" className="roboto_font">Contact</a></li>
               <li><a href="#menu" className="primary_btn roboto_font">Book Appointment</a></li>
             </ul>

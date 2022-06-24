@@ -1,7 +1,8 @@
 export const routes = {
-    HOME_BLOG: '/home-blog',
+    HOME_BLOG: '/home',
     ABOUT: '/about',
     TREATMENTS: '/treatments',
+    TESTMONIALS: '/testimonials/',
     GENERAL_DENTISTRY: '/general-dentistry',
     SMILE_MAKE_OVER: '/smile-makeover',
     DENTAL_IMPLANTS: '/dental-implants',

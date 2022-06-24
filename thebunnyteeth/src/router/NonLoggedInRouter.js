@@ -9,6 +9,7 @@ import KidsDensitryContainer from "containers/KidsDensitryContainer/KidsDensitry
 import OrthodonticContainer from "containers/OrthodonticContainer/OrthodonticContainer";
 import SedationDensitryContainer from "containers/SedationDensitryContainer/SedationDensitryContainer";
 import SmileMakeOverContainer from "containers/SmileMakeOverContainer/SmileMakeOverContainer";
+import TestmonialsContainer from "containers/TestmonialsContainer/TestmonialsContainer";
 import TreatmentsContainer from "containers/TreatmentsContainer/TreatmentsContainer";
 import WisdowToothContainer from "containers/WisdowToothContainer/WisdowToothContainer";
 import React from "react";
@@ -22,6 +23,8 @@ export default () => {
       <Route exact path={routes.HOME_BLOG} component={HomeContainer} />
       <Route exact path={routes.ABOUT} component={AboutContainer} />
       <Route exact path={routes.TREATMENTS} component={TreatmentsContainer} />
+      <Route exact path={routes.TESTMONIALS} component={TestmonialsContainer} />
+      <Route exact path={routes.DENTAL_IMPLANTS} component={DentalImplantsContainer} />
       <Route exact path={routes.GENERAL_DENTISTRY} component={GeneralDentistryContainer} />
       <Route exact path={routes.SMILE_MAKE_OVER} component={SmileMakeOverContainer} />
       <Route exact path={routes.KIDS_DENTISTRY} component={KidsDensitryContainer} />
