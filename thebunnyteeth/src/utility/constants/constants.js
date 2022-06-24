@@ -3,6 +3,7 @@ export const routes = {
     ABOUT: '/about',
     TREATMENTS: '/treatments',
     TESTMONIALS: '/testimonials/',
+    CONACT_US: '/contact-us/',
     GENERAL_DENTISTRY: '/general-dentistry',
     SMILE_MAKE_OVER: '/smile-makeover',
     DENTAL_IMPLANTS: '/dental-implants',

@@ -82,7 +82,7 @@ export const Header = (props) => {
                   <li><a href="#" className="roboto_font">Mouth Breathing</a></li>
                 </ul>
   </li>*/}
-              <li><a href="#menu" className="roboto_font">Contact</a></li>
+              <li><Link to="/contact-us/"  href="#menu" className="roboto_font">Contact</Link></li>
               <li><a href="#menu" className="primary_btn roboto_font">Book Appointment</a></li>
             </ul>
           </nav>
