@@ -8,9 +8,9 @@ import { ActionTypes } from 'redux/reducers/actionType';
 export const getSinglePost = (id) => dispatch => dispatch({
     type: ActionTypes.SINGLE_POST,
     payload: API.getSinglePost(id)
-        .then(response => { debugger;
+        .then(response => { 
             return response.data;
-        }).catch(error => { debugger;
+        }).catch(error => { 
             return error;
         })
 })

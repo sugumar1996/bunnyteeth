@@ -1,7 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { baseImagePath } from 'utility/utility';
 
-export default (props) => { debugger;
+export default (props) => {
+    
 
     return (
         <>
@@ -37,60 +38,86 @@ export default (props) => { debugger;
                                     </header>
                                     <div className="row">
                                         <div className="col-lg-4 d-flex">
-                                            <div className="small_card maintain_div ">
-                                                <div className="small_card_wrap maintain_div">
-                                                    <div class="media d-flex">
-                                                        <div className="ds_pic mr-3">
-                                                            <img src={baseImagePath('icons/icon1.png')} class="custom_img mr-3"
-                                                                alt="Alphabet Internation School" />
-                                                        </div>
-                                                        <div class="media-body">
-                                                            <h5 class="sc_name">Ramya S</h5>
-                                                            <p className="sc_date">2021-06-14</p>
-                                                        </div>
+                                            <div className="testmoanial_card maintain_div text-center">
+                                                <div class="fa fa-quote-right quote_icon" aria-hidden="true"></div>
+                                                <div class="media maintain_div">
+                                                    <div className="ds_pic mt-3 mb-2">
+                                                        <img src={baseImagePath('icons/avathar1.png')} class="custom_img mr-3"
+                                                            alt="Alphabet Internation School" />
                                                     </div>
-                                                    <div className="rating_star maintain_div">
-                                                        <span style={{ fontSize: "26px", color: "#f6bb07", borderRadius: "10px" }}>&#9733;</span>
-                                                        <span style={{ fontSize: "26px", color: "#f6bb07", borderRadius: "10px" }}>&#9733;</span>
-                                                        <span style={{ fontSize: "26px", color: "#f6bb07", borderRadius: "10px" }}>&#9733;</span>
-                                                        <span style={{ fontSize: "26px", color: "#f6bb07", borderRadius: "10px" }}>&#9733;</span>
-                                                        <span style={{ fontSize: "26px", color: "#f6bb07", borderRadius: "10px" }}>&#9733;</span>
-                                                    </div>
-                                                    <div className="review_content maintain_div roboto_font">
-                                                        Dr.Santhosh Kumari is an Experienced and Excellent dentist who used to ask me if anything hurt and it was the first time I had totally pain-free dentistry. The crowns and the partials you did for me feels great. Overall it was a very good experience with the Team Bunny Teath
-                                                    </div>
+                                                </div>
+                                                <div class="media-body">
+                                                    <h5 class="sc_name roboto_font">sujatha mageshbabu</h5>
+                                                    <p className="sc_date">Patient</p>
+                                                </div>
+                                                <div className="rating_star maintain_div">
+                                                    <span style={{ fontSize: "26px", color: "#f6bb07", borderRadius: "10px" }}>&#9733;</span>
+                                                    <span style={{ fontSize: "26px", color: "#f6bb07", borderRadius: "10px" }}>&#9733;</span>
+                                                    <span style={{ fontSize: "26px", color: "#f6bb07", borderRadius: "10px" }}>&#9733;</span>
+                                                    <span style={{ fontSize: "26px", color: "#f6bb07", borderRadius: "10px" }}>&#9733;</span>
+                                                    <span style={{ fontSize: "26px", color: "#f6bb07", borderRadius: "10px" }}>&#9733;</span>
+                                                </div>
+                                                <div className="media_content mt-5">
+                                                    <p className="testmonial_info roboto_font">
+                                                        Bunny teeth dental clinic equipped with latest technology of digital scanning. For my tooth issue it was scanning in 360 degree angle.
+                                                        Dr. Santhosh kumari very patiently doing the treatment without any pain. Clinic is well equipped with technology and all things are well sterilized. For kids pain free treatment and their room is very nice. Every kid would love to take treatment here.  Best part is follow up with us next day.
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-lg-4 d-flex">
-                                            <div className="small_card maintain_div">
-                                                <div className="small_card_wrap maintain_div">
-                                                    <div class="media d-flex">
-                                                        <div className="ds_pic mr-3">
-                                                            <img src={baseImagePath('icons/icon1.png')} class="custom_img mr-3"
-                                                                alt="Alphabet Internation School" />
-                                                        </div>
-                                                        <div class="media-body">
-                                                            <h5 class="sc_name">Ramya S</h5>
-                                                            <p className="sc_date">2021-06-14</p>
-                                                        </div>
+                                            <div className="testmoanial_card maintain_div text-center">
+                                                <div class="fa fa-quote-right quote_icon" aria-hidden="true"></div>
+                                                <div class="media maintain_div">
+                                                    <div className="ds_pic mt-3 mb-2">
+                                                        <img src={baseImagePath('icons/avathar2.png')} class="custom_img mr-3"
+                                                            alt="Alphabet Internation School" />
                                                     </div>
-                                                    <div className="rating_star maintain_div">
-                                                        <span style={{ fontSize: "26px", color: "#f6bb07", borderRadius: "10px" }}>&#9733;</span>
-                                                        <span style={{ fontSize: "26px", color: "#f6bb07", borderRadius: "10px" }}>&#9733;</span>
-                                                        <span style={{ fontSize: "26px", color: "#f6bb07", borderRadius: "10px" }}>&#9733;</span>
-                                                        <span style={{ fontSize: "26px", color: "#f6bb07", borderRadius: "10px" }}>&#9733;</span>
-                                                        <span style={{ fontSize: "26px", color: "#f6bb07", borderRadius: "10px" }}>&#9733;</span>
-                                                    </div>
-                                                    <div className="review_content maintain_div roboto_font">
-                                                        Dr.Santhosh Kumari is an Experienced and Excellent dentist who used to ask me if anything hurt and it was the first time I had totally pain-free dentistry. The crowns and the partials you did for me feels great. Overall it was a very good experience with the Team Bunny Teath
-                                                    </div>
+                                                </div>
+                                                <div class="media-body">
+                                                    <h5 class="sc_name roboto_font">RAMANATHAN MUTHU</h5>
+                                                    <p className="sc_date">Patient</p>
+                                                </div>
+                                                <div className="rating_star maintain_div">
+                                                    <span style={{ fontSize: "26px", color: "#f6bb07", borderRadius: "10px" }}>&#9733;</span>
+                                                    <span style={{ fontSize: "26px", color: "#f6bb07", borderRadius: "10px" }}>&#9733;</span>
+                                                    <span style={{ fontSize: "26px", color: "#f6bb07", borderRadius: "10px" }}>&#9733;</span>
+                                                    <span style={{ fontSize: "26px", color: "#f6bb07", borderRadius: "10px" }}>&#9733;</span>
+                                                    <span style={{ fontSize: "26px", color: "#f6bb07", borderRadius: "10px" }}>&#9733;</span>
+                                                </div>
+                                                <div className="media_content mt-5">
+                                                    <p className="testmonial_info roboto_font">
+                                                        We went for my daughters tooth removal last week. The doctor who attended was polite and friendly. Though my daughter started to panic when the doctor told we have to remove two of her teeth,  the Doctor assured my daughter that she would put her tooth to sleep and slowly started the treatment while they played cartoons for my child. It was painless for my daughter and now she has a confident look. Would strongly recommend this clinic for children.     </p>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div className="maintain_div mt-3 text-center">
-                                        <p className="mt-1 roboto_font" style={{ fontSize: "14px" }}><span className="fw-bold">Google</span> rating score: <span className="fw-bold">4.9</span> of 5,based on <span className="fw-bold">103 reviews.</span></p>
+                                        <div className="col-lg-4 d-flex">
+                                            <div className="testmoanial_card maintain_div text-center">
+                                                <div class="fa fa-quote-right quote_icon" aria-hidden="true"></div>
+                                                <div class="media maintain_div">
+                                                    <div className="ds_pic mt-3 mb-2">
+                                                        <img src={baseImagePath('icons/avathar3.png')} class="custom_img mr-3"
+                                                            alt="Alphabet Internation School" />
+                                                    </div>
+                                                </div>
+                                                <div class="media-body">
+                                                    <h5 class="sc_name roboto_font">Surendar Kumar</h5>
+                                                    <p className="sc_date">Patient</p>
+                                                </div>
+                                                <div className="rating_star maintain_div">
+                                                    <span style={{ fontSize: "26px", color: "#f6bb07", borderRadius: "10px" }}>&#9733;</span>
+                                                    <span style={{ fontSize: "26px", color: "#f6bb07", borderRadius: "10px" }}>&#9733;</span>
+                                                    <span style={{ fontSize: "26px", color: "#f6bb07", borderRadius: "10px" }}>&#9733;</span>
+                                                    <span style={{ fontSize: "26px", color: "#f6bb07", borderRadius: "10px" }}>&#9733;</span>
+                                                    <span style={{ fontSize: "26px", color: "#f6bb07", borderRadius: "10px" }}>&#9733;</span>
+                                                </div>
+                                                <div className="media_content mt-5">
+                                                    <p className="testmonial_info roboto_font">
+                                                        Well experienced and a good doctor. Had a good experience with them, have been consulting her for about 5 years. She and her team are very friendly, polite and co-operative. Would recommend this place for anyone who is looking for a dentist.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div className="maintain_div text-center testmonial_content d-flex align-items-center justify-content-center my-3">
                                         <p className="mt-1 montserrat_font">Check Out More Testimonials here</p>
@@ -104,10 +131,10 @@ export default (props) => { debugger;
                                 <div className="col-lg-12">
                                     <header className="maintain_div mb_30 text-center">
                                         <h3 className="h3_title roboto_font secondaryColor mb-3">Patient Speaks</h3>
-                                        <h2 className="h2_title montserrat_font">What They Speak</h2>
+                                        <h2 className="h2_title montserrat_font">What They Speak About Us</h2>
                                     </header>
                                     <div className="row">
-                                        <div className="col-lg-4 d-flex">
+                                        <div className="col-lg-4 d-flex mb-3">
                                             <div className="oc_card maintain_div">
                                                 <div className="video_data">
                                                     <iframe width="100%" height="200" src="https://www.youtube.com/embed/we7HAVwEIXw?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fwww.thebunnyteeth.com&widgetid=7">
@@ -115,7 +142,7 @@ export default (props) => { debugger;
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-lg-4 d-flex">
+                                        <div className="col-lg-4 d-flex mb-3">
                                             <div className="oc_card maintain_div">
                                                 <div className="video_data">
                                                     <iframe width="100%" height="200" src="https://www.youtube.com/embed/s1lbN53D3i8?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fwww.thebunnyteeth.com&widgetid=9">
@@ -123,7 +150,55 @@ export default (props) => { debugger;
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-lg-4 d-flex">
+                                        <div className="col-lg-4 d-flex mb-3">
+                                            <div className="oc_card maintain_div">
+                                                <div className="video_data">
+                                                    <iframe width="100%" height="200" src="https://www.youtube.com/embed/K4qvMAxWWfQ?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fwww.thebunnyteeth.com&widgetid=11">
+                                                    </iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-4 d-flex mb-3">
+                                            <div className="oc_card maintain_div">
+                                                <div className="video_data">
+                                                    <iframe width="100%" height="200" src="https://www.youtube.com/embed/we7HAVwEIXw?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fwww.thebunnyteeth.com&widgetid=7">
+                                                    </iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-4 d-flex mb-3">
+                                            <div className="oc_card maintain_div">
+                                                <div className="video_data">
+                                                    <iframe width="100%" height="200" src="https://www.youtube.com/embed/s1lbN53D3i8?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fwww.thebunnyteeth.com&widgetid=9">
+                                                    </iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-4 d-flex mb-3">
+                                            <div className="oc_card maintain_div">
+                                                <div className="video_data">
+                                                    <iframe width="100%" height="200" src="https://www.youtube.com/embed/K4qvMAxWWfQ?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fwww.thebunnyteeth.com&widgetid=11">
+                                                    </iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-4 d-flex mb-3">
+                                            <div className="oc_card maintain_div">
+                                                <div className="video_data">
+                                                    <iframe width="100%" height="200" src="https://www.youtube.com/embed/we7HAVwEIXw?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fwww.thebunnyteeth.com&widgetid=7">
+                                                    </iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-4 d-flex mb-3">
+                                            <div className="oc_card maintain_div">
+                                                <div className="video_data">
+                                                    <iframe width="100%" height="200" src="https://www.youtube.com/embed/s1lbN53D3i8?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fwww.thebunnyteeth.com&widgetid=9">
+                                                    </iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-4 d-flex mb-3">
                                             <div className="oc_card maintain_div">
                                                 <div className="video_data">
                                                     <iframe width="100%" height="200" src="https://www.youtube.com/embed/K4qvMAxWWfQ?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fwww.thebunnyteeth.com&widgetid=11">
@@ -141,20 +216,60 @@ export default (props) => { debugger;
                                         <h2 className="h2_title montserrat_font">What Our Dentist has to Say</h2>
                                     </header>
                                     <div className="row">
-                                        <div className="col-lg-4 d-flex">
+                                        <div className="col-lg-4 d-flex mb-3">
                                             <div className="oc_card maintain_div">
                                                 <div className="video_data">
                                                     <iframe width="100%" height="200" src="https://www.youtube.com/embed/zl_JwElKmxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-lg-4 d-flex">
+                                        <div className="col-lg-4 d-flex mb-3">
                                             <div className="oc_card maintain_div">
                                                 <div className="video_data">
                                                     <iframe width="100%" height="200" src="https://www.youtube.com/embed/5sCLSO9S8iY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                                </div>
                                             </div>
                                         </div>
-                                        <div className="col-lg-4 d-flex">
+                                        <div className="col-lg-4 d-flex mb-3">
+                                            <div className="oc_card maintain_div">
+                                                <div className="video_data">
+                                                    <iframe width="100%" height="200" src="https://www.youtube.com/embed/PP9p_28bjso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-4 d-flex mb-3">
+                                            <div className="oc_card maintain_div">
+                                                <div className="video_data">
+                                                    <iframe width="100%" height="200" src="https://www.youtube.com/embed/zl_JwElKmxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-4 d-flex mb-3">
+                                            <div className="oc_card maintain_div">
+                                                <div className="video_data">
+                                                    <iframe width="100%" height="200" src="https://www.youtube.com/embed/zl_JwElKmxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-4 d-flex mb-3">
+                                            <div className="oc_card maintain_div">
+                                                <div className="video_data">
+                                                    <iframe width="100%" height="200" src="https://www.youtube.com/embed/zl_JwElKmxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-4 d-flex mb-3">
+                                            <div className="oc_card maintain_div">
+                                                <div className="video_data">
+                                                    <iframe width="100%" height="200" src="https://www.youtube.com/embed/zl_JwElKmxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-4 d-flex mb-3">
+                                            <div className="oc_card maintain_div">
+                                                <div className="video_data">
+                                                    <iframe width="100%" height="200" src="https://www.youtube.com/embed/5sCLSO9S8iY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-4 d-flex mb-3">
                                             <div className="oc_card maintain_div">
                                                 <div className="video_data">
                                                     <iframe width="100%" height="200" src="https://www.youtube.com/embed/PP9p_28bjso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                                </div>

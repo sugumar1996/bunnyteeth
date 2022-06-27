@@ -30,12 +30,12 @@ export const authReducer = (state = initialState, action) => {
     switch (action.type) {
         case ActionTypes.SINGLE_POST_PENDING:
             return updateObject(state, { isLoading: true, data: {} })
-        case ActionTypes.SINGLE_POST_FULFILLED: debugger;
+        case ActionTypes.SINGLE_POST_FULFILLED: 
             return updateObject(state, { isLoading: false, data: action.payload })
 
         case ActionTypes.GET_ALL_CATEGORIES_PENDING:
             return updateObject(state, { isLoading: true })
-        case ActionTypes.GET_ALL_CATEGORIES_FULFILLED: debugger;
+        case ActionTypes.GET_ALL_CATEGORIES_FULFILLED: 
             return updateObject(state, { isLoading: false, categories_list: action.payload})
         default: return state;
     }

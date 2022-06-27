@@ -23,6 +23,6 @@ export const getSinglePost = (id) => {
 };
 
 
-export const getCategoriesList = () => { debugger;
+export const getCategoriesList = () => { 
   return axios.get(API_VERSION + `posts`, headers);
 };

@@ -14,7 +14,7 @@ export const Header = (props) => {
 
   // const {setStyle} = props;
 
-  // useEffect(() => { debugger;
+  // useEffect(() => { 
   //   setStyle();
   // }, []);
 
