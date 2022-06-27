@@ -46,12 +46,12 @@ export const Header = (props) => {
               <img src={baseImagePath('icons/main_logo.png')} class="custom_img"
                 alt="Alphabet Internation School" />
             </a>
-            <p className="font_size_14 m-0">Multi Speciality Dental Clinic, Laser & Implants</p>
+            <p className="font_size_14 m-0 roboto_font" style={{color: "#555555"}}>Multi Speciality Dental Clinic, Laser & Implants</p>
           </div>
           <nav id="navbar" class="navbar">
             <ul>
-              <li><Link to="/home-blog" href="#hero" className="roboto_font">Home</Link></li>
-              <li class="dropdown"><Link to="/about" href="#" className="roboto_font"><span>About</span> <i class="bi bi-chevron-down dropdown-indicator"></i></Link>
+              <li><Link to="/" href="#hero" className="roboto_font">Home</Link></li>
+              <li class="dropdown"><Link to="/about-us/" href="#" className="roboto_font"><span>About</span> <i class="bi bi-chevron-down dropdown-indicator"></i></Link>
                 <ul>
                   <li class="dropdown"><a href="#" className="roboto_font"><span>Our Team</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                     <ul>
@@ -60,19 +60,19 @@ export const Header = (props) => {
                   </li>
                 </ul>
               </li>
-              <li class="dropdown"><Link to="/treatments" href="#" className="roboto_font"><span>Treatments</span> <i class="bi bi-chevron-down dropdown-indicator"></i></Link>
+              <li class="dropdown"><Link to="/treatments/" href="#" className="roboto_font"><span>Treatments</span> <i class="bi bi-chevron-down dropdown-indicator"></i></Link>
                 <ul>
-                  <li><Link to="/general-dentistry" href="#" className="roboto_font">General Dentistry</Link></li>
-                  <li><Link to="/smile-makeover" href="#" className="roboto_font">Smile Makeover</Link></li>
-                  <li><Link to="/dental-implants" href="#" className="roboto_font">Dental Implants</Link></li>
-                  <li><Link to="/kids-dentistry" href="#" className="roboto_font">Kids Dentistry</Link></li>
-                  <li><Link to="/sedation-dentistry" href="#" className="roboto_font">Sedation Dentistry</Link></li>
-                  <li><Link to="/dentures" href="#" className="roboto_font">Dentures</Link></li>
-                  <li><Link to="/bridges-crowns" href="#" className="roboto_font">Bridges & Crowns</Link></li>
-                  <li><Link to="/clear-aligners-invisible-braces" href="#" className="roboto_font">Clear Aligners / Invisible Braces</Link></li>
-                  <li><Link to="/orthodontic-treatment" href="#" className="roboto_font">Orthodontic Treatment</Link></li>
-                  <li><Link to="/wisdom-tooth-removal" href="#" className="roboto_font">Wisdom Tooth Removal</Link></li>
-                  <li><Link to="/root-canal" href="#" className="roboto_font">Root Canal</Link></li>
+                  <li><Link to="/general-dentistry/" href="#" className="roboto_font">General Dentistry</Link></li>
+                  <li><Link to="/smile-makeover/" href="#" className="roboto_font">Smile Makeover</Link></li>
+                  <li><Link to="/dental-implants/" href="#" className="roboto_font">Dental Implants</Link></li>
+                  <li><Link to="/kids-dentistry/" href="#" className="roboto_font">Kids Dentistry</Link></li>
+                  <li><Link to="/sedation-dentistry/" href="#" className="roboto_font">Sedation Dentistry</Link></li>
+                  <li><Link to="/dentures/" href="#" className="roboto_font">Dentures</Link></li>
+                  <li><Link to="/bridges-crowns/" href="#" className="roboto_font">Bridges & Crowns</Link></li>
+                  <li><Link to="/clear-aligners-invisible-braces/" href="#" className="roboto_font">Clear Aligners / Invisible Braces</Link></li>
+                  <li><Link to="/orthodontic-treatment/" href="#" className="roboto_font">Orthodontic Treatment</Link></li>
+                  <li><Link to="/wisdom-tooth-removal/" href="#" className="roboto_font">Wisdom Tooth Removal</Link></li>
+                  <li><Link to="/root-canal/" href="#" className="roboto_font">Root Canal</Link></li>
                 </ul>
               </li>
               <li><Link to="/testimonials/" href="#menu" className="roboto_font">Testimonials</Link></li>
